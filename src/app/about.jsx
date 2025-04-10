@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import {
   Activity,
   Dumbbell,
@@ -7,6 +10,7 @@ import {
   Timer,
   Watch,
 } from "lucide-react";
+import { useMemo } from "react";
 
 export default function AboutUsSection() {
   const gridSize = 10;
@@ -31,30 +35,53 @@ export default function AboutUsSection() {
     return null;
   };
 
+  const icons = useMemo(() => {
+    return Array.from({ length: 45 }).map((_, i) => {
+      const Icon =
+        [Dumbbell, Heart, Watch, Footprints, Timer, Activity, Scale][i % 7];
+      const size = Math.floor(Math.random() * 35) + 60;
+      const position = getUnoccupiedPosition();
+      const rotate = `${Math.floor(Math.random() * 3)}deg`;
+
+      return position
+        ? {
+            id: i,
+            Icon,
+            size,
+            position,
+            rotate,
+          }
+        : null;
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
     <div className="relative w-full min-h-screen bg-white overflow-hidden">
-      {/* Background pattern with icons */}
+      {/* Background pattern with animated icons */}
       <div className="absolute inset-0 w-full md:w-3/5 overflow-hidden pointer-events-none">
         <div className="absolute inset-0 p-4">
-          {Array.from({ length: 15 }).map((_, i) => {
-            const Icon =
-              [Dumbbell, Heart, Watch, Footprints, Timer, Activity, Scale][
-                i % 7
-              ];
-            const size = Math.floor(Math.random() * 35) + 70;
-            const position = getUnoccupiedPosition();
-            if (!position) return null;
-            const rotate = `${Math.floor(Math.random() * 3)}deg`;
-
+          {icons.map((item) => {
+            if (!item) return null;
+            const { id, Icon, size, position, rotate } = item;
             return (
-              <div
-                key={i}
-                className="absolute transition-all duration-1000"
+              <motion.div
+                key={id}
+                className="absolute"
                 style={{
                   top: position.top,
                   left: position.left,
                   transform: `rotate(${rotate})`,
                   opacity: 0.8,
+                }}
+                animate={{
+                  scale: [1, 1.1, 1],
+                }}
+                transition={{
+                  duration: 3 + Math.random() * 2,
+                  repeat: Infinity,
+                  repeatType: "loop",
+                  ease: "easeInOut",
                 }}
               >
                 <Icon
@@ -63,7 +90,7 @@ export default function AboutUsSection() {
                   strokeWidth={1}
                   fill="none"
                 />
-              </div>
+              </motion.div>
             );
           })}
         </div>
