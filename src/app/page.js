@@ -4,14 +4,15 @@ import { motion } from "framer-motion"
 import { Phone } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
-import { useRouter } from 'next/navigation'
+import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 import AboutSection from "./about"
 import AppleFormat from "./apple/apple-format"
-import LeadForm from './components/LeadForm'
+import LeadForm from "./components/LeadForm"
 import Navbar from "./components/nav"
 import TestimonialSection from "./testimonial"
-  export default function Home() {
+
+export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [isFormOpen, setIsFormOpen] = useState(false)
@@ -27,131 +28,113 @@ import TestimonialSection from "./testimonial"
 
   const fadeIn = {
     hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.6 },
-    },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
   }
 
   const staggerContainer = {
     hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.2,
-      },
-    },
+    visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
   }
 
   const handleFormSubmit = (formData) => {
-    // Here you would typically send the form data to your backend
-    console.log('Form submitted:', formData)
-    // Close the form
-    localStorage.setItem('formData', JSON.stringify(formData));
+    console.log("Form submitted:", formData)
+    localStorage.setItem("formData", JSON.stringify(formData))
     setIsFormOpen(false)
-    // Navigate to the video page
-    router.push('/video')
+    router.push("/video")
   }
 
   return (
     <main className="flex min-h-screen flex-col">
       {/* Navigation */}
-      <Navbar/>
+      <Navbar />
 
       {/* Hero Section */}
-      <section className="relative bg-black text-white min-h-screen flex items-center">
-        <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-pink-400"></div>
-        </div>
-        <div className="relative z-10 max-w-7xl mx-auto px-4 py-24 md:py-32 lg:py-40 text-center">
+      <section className="relative bg-black text-white min-h-[70vh] sm:min-h-screen flex items-center">
+        <div className="absolute inset-0 z-0 bg-pink-400"></div>
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-16 sm:py-24 md:py-32 lg:py-40 text-center">
           <motion.div initial="hidden" animate="visible" variants={staggerContainer} className="max-w-4xl mx-auto">
-          <div className=" flex justify-center items-center relative z-50 mx-auto w-[450px] h-[100px]  p-1 rounded-lg mb-4">
-            <Image
-              src="/logo3.png"
-              alt="Logo"
-              width={300}
-              height={200}
-              
-              className="object-contain p-1 "
-            />
-          </div>
+            <div className="flex justify-center items-center relative z-50 mx-auto w-[250px] sm:w-[350px] md:w-[450px] h-[80px] sm:h-[100px] p-1 rounded-lg mb-4 sm:mb-6">
+              <Image
+                src="/logo3.png"
+                alt="Logo"
+                width={300}
+                height={200}
+                className="object-contain p-1"
+              />
+            </div>
 
-                <motion.div
+            <motion.div
               variants={fadeIn}
-              className="inline-block bg-gradient-to-r from-pink-400 to-amber-400 text-black font-bold px-6 py-2 rounded-full mb-8 shadow-lg"
+              className="inline-block bg-gradient-to-r from-pink-400 to-amber-400 text-black font-bold px-4 py-1 sm:px-6 sm:py-2 rounded-full mb-6 sm:mb-8 text-sm sm:text-base shadow-lg"
             >
               FIT WOMEN
             </motion.div>
 
             <motion.h1
               variants={fadeIn}
-              className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8 text-shadow"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 sm:mb-8 text-shadow px-2"
             >
               Want to Feel Strong, Confident & In Control of Your Body Again?
             </motion.h1>
 
-            <motion.p variants={fadeIn} className="text-xl md:text-2xl mb-12 text-black max-w-3xl mx-auto">
-              Whether you want to lose weight, tone up, or simply feel amazing in your skin again – our 6 month coaching
-              program is built for women ready to invest in themselves and finally achieve lasting transformation.
+            <motion.p
+              variants={fadeIn}
+              className="text-lg sm:text-xl md:text-2xl mb-8 sm:mb-12 text-black max-w-3xl mx-auto px-2"
+            >
+              Whether you want to lose weight, tone up, or simply feel amazing in your skin again – our 6-month coaching
+              program is built for women ready to invest in themselves and achieve lasting transformation.
             </motion.p>
 
             <motion.div variants={fadeIn} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <button
                 onClick={() => setIsFormOpen(true)}
-                className="inline-block bg-yellow-600 hover:from-pink-500 hover:to-amber-500 text-white font-bold px-10 py-4 text-lg rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
+                className="inline-block bg-yellow-600 hover:from-pink-500 hover:to-amber-500 text-white font-bold px-6 py-3 sm:px-10 sm:py-4 text-base sm:text-lg rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 YES! SHOW ME HOW
               </button>
             </motion.div>
 
-            <LeadForm 
-              isOpen={isFormOpen}
-              onClose={() => setIsFormOpen(false)}
-              onSubmit={handleFormSubmit}
-            />
+            <LeadForm isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} onSubmit={handleFormSubmit} />
           </motion.div>
         </div>
       </section>
 
       {/* Testimonials Section */}
-      <section className="bg-white py-20">
-       <TestimonialSection/>
+      <section className="bg-white py-12 sm:py-20">
+        <TestimonialSection />
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-white">
-  
-            <AboutSection/> 
-          
+      <section id="about" className="py-12 sm:py-20 bg-white">
+        <AboutSection />
       </section>
 
       {/* Transformation Stories */}
-      <section className="py-10 bg-gradient-to-b from-pink-50 to-white " id="case-studies">
-        <h3 className="text-center text-4xl font-bold mb-4 text-yellow-500"> Case Studies </h3>
-        <AppleFormat/>
+      <section className="py-8 sm:py-10 bg-gradient-to-b from-pink-50 to-white" id="case-studies">
+        <h3 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-yellow-500">Case Studies</h3>
+        <AppleFormat />
       </section>
 
       {/* Program Features */}
-      <section className="py-20 ">
+      <section className="py-12 sm:py-20">
         <div className="max-w-7xl mx-auto px-4">
           <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
             variants={staggerContainer}
-            className="text-center mb-16"
+            className="text-center mb-12 sm:mb-16"
           >
             <motion.div
               variants={fadeIn}
-              className="inline-block bg-gradient-to-r from-pink-100 to-amber-100 text-pink-800 font-medium px-6 py-2 rounded-full mb-4 shadow-sm"
+              className="inline-block bg-gradient-to-r from-pink-100 to-amber-100 text-pink-800 font-medium px-4 py-1 sm:px-6 sm:py-2 rounded-full mb-4 text-sm sm:text-base shadow-sm"
             >
               THE PRESTIGE DIFFERENCE
             </motion.div>
 
             <motion.h2
               variants={fadeIn}
-              className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-pink-500 to-amber-500 bg-clip-text text-transparent"
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-pink-500 to-amber-500 bg-clip-text text-transparent px-2"
             >
               6 REASONS WHY
               <br />
@@ -164,7 +147,7 @@ import TestimonialSection from "./testimonial"
             whileInView="visible"
             viewport={{ once: true, amount: 0.1 }}
             variants={staggerContainer}
-            className="grid grid-cols-1 md:grid-cols-3 gap-8"
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8"
           >
             {[
               {
@@ -207,13 +190,13 @@ import TestimonialSection from "./testimonial"
                 key={index}
                 variants={fadeIn}
                 whileHover={{ y: -5 }}
-                className="bg-gradient-to-br from-white to-pink-50 p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300"
+                className="bg-gradient-to-br from-white to-pink-50 p-6 sm:p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300"
               >
-                <div className="bg-gradient-to-r from-pink-400 to-amber-400 text-white font-bold w-12 h-12 flex items-center justify-center rounded-full mb-4 shadow-md">
+                <div className="bg-gradient-to-r from-pink-400 to-amber-400 text-white font-bold w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-full mb-4 shadow-md">
                   {feature.number}
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-pink-800">{feature.title}</h3>
-                <p className="text-gray-700">{feature.description}</p>
+                <h3 className="text-lg sm:text-xl font-bold mb-3 text-pink-800">{feature.title}</h3>
+                <p className="text-gray-700 text-sm sm:text-base">{feature.description}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -221,7 +204,7 @@ import TestimonialSection from "./testimonial"
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-pink-500 via-white to-pink-700 text-white">
+      <section className="py-12 sm:py-20 bg-gradient-to-br from-pink-500 via-white to-pink-700 text-white">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <motion.div
             initial="hidden"
@@ -229,21 +212,27 @@ import TestimonialSection from "./testimonial"
             viewport={{ once: true, amount: 0.2 }}
             variants={staggerContainer}
           >
-            <motion.h2 variants={fadeIn} className="text-3xl md:text-5xl font-bold mb-6 text-shadow-lg text-black">
+            <motion.h2
+              variants={fadeIn}
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-shadow-lg text-black px-2"
+            >
               READY TO TRANSFORM
               <br />
               YOUR BODY AND LIFE?
             </motion.h2>
 
-            <motion.p variants={fadeIn} className="text-xl max-w-3xl mx-auto mb-8  text-black">
+            <motion.p
+              variants={fadeIn}
+              className="text-lg sm:text-xl max-w-3xl mx-auto mb-8 text-black px-2"
+            >
               Join our 6-month coaching program and get the personalized support, expert guidance, and proven system you
               need to achieve the results you deserve.
             </motion.p>
 
             <motion.div variants={fadeIn} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <button
+              <button
                 onClick={() => setIsFormOpen(true)}
-                className="inline-block bg-yellow-600 hover:from-pink-500 hover:to-amber-500 text-white font-bold px-10 py-4 text-lg rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
+                className="inline-block bg-yellow-600 hover:from-pink-500 hover:to-amber-500 text-white font-bold px-6 py-3 sm:px-10 sm:py-4 text-base sm:text-lg rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 YES! SHOW ME HOW
               </button>
@@ -253,22 +242,21 @@ import TestimonialSection from "./testimonial"
       </section>
 
       {/* Footer */}
-      <footer className="bg-black text-white py-12">
+      <footer className="bg-black text-white py-8 sm:py-12">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
             <div>
-              <div className="text-xl font-bold mb-4">
-                <span className="text-pink-400">PRESTIGE</span> <span className="text-amber-400">WOMEN&apos;S</span>{" "}
-                COACHING
+              <div className="text-lg sm:text-xl font-bold mb-4">
+                <span className="text-pink-400">PRESTIGE</span> <span className="text-amber-400">WOMEN'S</span> COACHING
               </div>
-              <p className="text-gray-400">
+              <p className="text-gray-400 text-sm sm:text-base">
                 Transforming women's bodies and lives through expert coaching and personalized support.
               </p>
             </div>
 
             <div>
-              <h3 className="text-lg font-medium mb-4 text-pink-300">QUICK LINKS</h3>
-              <ul className="space-y-2 text-gray-400">
+              <h3 className="text-base sm:text-lg font-medium mb-4 text-pink-300">QUICK LINKS</h3>
+              <ul className="space-y-2 text-gray-400 text-sm sm:text-base">
                 {["About Us", "Case Studies", "Join Mission", "Blog"].map((item, index) => (
                   <li key={index}>
                     <Link href="#" className="hover:text-pink-300 transition-colors flex items-center group">
@@ -281,8 +269,8 @@ import TestimonialSection from "./testimonial"
             </div>
 
             <div>
-              <h3 className="text-lg font-medium mb-4 text-pink-300">RESOURCES</h3>
-              <ul className="space-y-2 text-gray-400">
+              <h3 className="text-base sm:text-lg font-medium mb-4 text-pink-300">RESOURCES</h3>
+              <ul className="space-y-2 text-gray-400 text-sm sm:text-base">
                 {["Nutrition Guide", "Workout Plans", "Success Stories"].map((item, index) => (
                   <li key={index}>
                     <Link href="#" className="hover:text-pink-300 transition-colors flex items-center group">
@@ -295,8 +283,8 @@ import TestimonialSection from "./testimonial"
             </div>
 
             <div>
-              <h3 className="text-lg font-medium mb-4 text-pink-300">SOCIAL</h3>
-              <ul className="space-y-2 text-gray-400">
+              <h3 className="text-base sm:text-lg font-medium mb-4 text-pink-300">SOCIAL</h3>
+              <ul className="space-y-2 text-gray-400 text-sm sm:text-base">
                 {["Facebook", "Instagram", "YouTube"].map((item, index) => (
                   <li key={index}>
                     <Link href="#" className="hover:text-pink-300 transition-colors flex items-center group">
@@ -309,10 +297,10 @@ import TestimonialSection from "./testimonial"
             </div>
           </div>
 
-          <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <div className="text-gray-400 mb-4 md:mb-0">Terms and Conditions &nbsp;&nbsp; All rights reserved.</div>
+          <div className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8 flex flex-col md:flex-row justify-between items-center text-sm sm:text-base">
+            <div className="text-gray-400 mb-4 md:mb-0">Terms and Conditions &nbsp; All rights reserved.</div>
             <div className="flex items-center text-gray-400 hover:text-pink-300 transition-colors">
-              <Phone className="w-5 h-5 mr-2" />
+              <Phone className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
               <span>(844) 496-5673</span>
             </div>
           </div>
@@ -321,4 +309,3 @@ import TestimonialSection from "./testimonial"
     </main>
   )
 }
-

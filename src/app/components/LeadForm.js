@@ -27,6 +27,7 @@ export default function LeadForm({ isOpen, onClose, onSubmit }) {
     <AnimatePresence>
       {isOpen && (
         <>
+          {/* Overlay */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -34,13 +35,16 @@ export default function LeadForm({ isOpen, onClose, onSubmit }) {
             className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50"
             onClick={onClose}
           />
+          
+          {/* Modal */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 50 }}
-            className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-md z-50"
+            className="fixed inset-0 flex items-center justify-center z-50 p-4"
           >
-            <div className="bg-white rounded-2xl shadow-xl p-4 relative mt-16">
+            <div className="bg-white rounded-2xl shadow-xl w-full max-w-md sm:max-w-lg p-4 sm:p-6 relative max-h-[90vh] overflow-y-auto">
+              {/* Close Button */}
               <button
                 onClick={onClose}
                 className="absolute right-4 top-4 text-gray-500 hover:text-gray-700"
@@ -48,58 +52,30 @@ export default function LeadForm({ isOpen, onClose, onSubmit }) {
                 <X size={24} />
               </button>
 
-              <div className="text-center mb-6">
-                <img src="/logo1.png" alt="Logo" className="w-62 mx-auto mb-2" />
-                <h2 className="text-2xl font-bold mb-2 text-black">
+              {/* Header */}
+              <div className="text-center mb-6 mt-10 sm:mt-0">
+                <img src="/logo1.png" alt="Logo" className="w-36 sm:w-44 mx-auto mb-3" />
+                <h2 className="text-lg sm:text-2xl font-bold mb-2 text-black">
                   Discover the Method Helping Women Finally Love the Way They Look & Feel
                 </h2>
               </div>
 
+              {/* Form */}
               <form onSubmit={handleSubmit} className="space-y-4">
-                <div>
-                  <input
-                    type="text"
-                    name="firstName"
-                    placeholder="First Name*"
-                    required
-                    className="w-full px-4 py-3 rounded-lg bg-amber-100 border-2 border-amber-200 focus:border-pink-400 focus:outline-none transition-colors text-black placeholder-gray-500"
-                    value={formData.firstName}
-                    onChange={handleChange}
-                  />
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    name="lastName"
-                    placeholder="Last Name*"
-                    required
-                    className="w-full px-4 py-3 rounded-lg bg-amber-100 border-2 border-amber-200 focus:border-pink-400 focus:outline-none transition-colors text-black placeholder-gray-500"
-                    value={formData.lastName}
-                    onChange={handleChange}
-                  />
-                </div>
-                <div>
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email*"
-                    required
-                    className="w-full px-4 py-3 rounded-lg bg-amber-100 border-2 border-amber-200 focus:border-pink-400 focus:outline-none transition-colors text-black placeholder-gray-500"
-                    value={formData.email}
-                    onChange={handleChange}
-                  />
-                </div>
-                <div>
-                  <input
-                    type="tel"
-                    name="phone"
-                    placeholder="Phone number*"
-                    required
-                    className="w-full px-4 py-3 rounded-lg bg-amber-100 border-2 border-amber-200 focus:border-pink-400 focus:outline-none transition-colors text-black placeholder-gray-500"
-                    value={formData.phone}
-                    onChange={handleChange}
-                  />
-                </div>
+                {["firstName", "lastName", "email", "phone"].map((field) => (
+                  <div key={field}>
+                    <input
+                      type={field === "email" ? "email" : field === "phone" ? "tel" : "text"}
+                      name={field}
+                      placeholder={`${field.replace(/([A-Z])/g, " $1")}*`.replace(/^./, str => str.toUpperCase())}
+                      required
+                      className="w-full px-4 py-3 rounded-lg bg-amber-100 border-2 border-amber-200 focus:border-pink-400 focus:outline-none transition-colors text-black placeholder-gray-500"
+                      value={formData[field]}
+                      onChange={handleChange}
+                    />
+                  </div>
+                ))}
+
                 <div>
                   <select
                     name="interest"
@@ -115,6 +91,7 @@ export default function LeadForm({ isOpen, onClose, onSubmit }) {
                     <option value="overall">Overall Transformation</option>
                   </select>
                 </div>
+
                 <button
                   type="submit"
                   className="w-full bg-gradient-to-r from-pink-400 to-amber-400 hover:from-pink-500 hover:to-amber-500 text-white font-bold py-4 rounded-lg transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-lg"
@@ -128,4 +105,4 @@ export default function LeadForm({ isOpen, onClose, onSubmit }) {
       )}
     </AnimatePresence>
   );
-} 
+}
