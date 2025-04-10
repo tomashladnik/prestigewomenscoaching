@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="fitness-icons" x="0" y="0" width="600" height="600" patternUnits="userSpaceOnUse">
+      <!-- Dumbbell -->
+      <path d="M120 240 h60 v-30 h30 v60 h-30 v-30 h-120 v30 h-30 v-60 h30 v30 h60" 
+        fill="#B8860B" 
+        stroke="#B8860B" 
+        stroke-width="12"
+        opacity="0.85"/>
+      
+      <!-- Heart with Pulse Line -->
+      <path d="M420 240 
+        M375 210 
+        C375 210, 360 180, 330 180
+        C285 180, 285 225, 285 225
+        C285 225, 285 270, 330 300
+        L375 330 L420 300
+        C465 270, 465 225, 465 225
+        C465 225, 465 180, 420 180
+        C390 180, 375 210, 375 210
+        Z" 
+        fill="#B8860B" 
+        stroke="#B8860B" 
+        stroke-width="12"
+        opacity="0.85"/>
+      
+      <!-- Kettlebell -->
+      <path d="M240 420
+        M210 390
+        C210 360, 240 345, 270 345
+        C300 345, 330 360, 330 390
+        L330 480
+        C330 510, 300 525, 270 525
+        C240 525, 210 510, 210 480
+        Z
+        M240 390
+        L300 390
+        L300 360
+        L240 360
+        Z"
+        fill="#B8860B" 
+        stroke="#B8860B" 
+        stroke-width="12"
+        opacity="0.85"/>
+      
+      <!-- Running Person -->
+      <path d="M420 420
+        M405 390
+        C420 375, 435 375, 450 390
+        C465 405, 465 420, 450 435
+        L435 450
+        C420 465, 405 465, 390 450
+        C375 435, 375 420, 390 405
+        Z
+        M427 405
+        C427 405, 442 420, 427 435
+        C412 450, 397 435, 397 435"
+        fill="#B8860B" 
+        stroke="#B8860B" 
+        stroke-width="12"
+        opacity="0.85"/>
+    </pattern>
+  </defs>
+  
+  <!-- Apply the pattern to fill the entire SVG -->
+  <rect width="100%" height="100%" fill="url(#fitness-icons)"/>
+</svg> 
