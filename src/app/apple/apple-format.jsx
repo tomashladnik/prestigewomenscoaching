@@ -9,7 +9,7 @@ export default function Home() {
             title="Beth’s Transformation"
             subtitle=" Working Professional & Dog Mom|Sarasota"
             
-              imageSrc="/videos/Beth-im.png"
+              imageSrc="/videos/beth-im.png"
             featureId="Beth"
             content={{
                 title: "Beth’s Transformation",
@@ -64,7 +64,7 @@ export default function Home() {
             title="Jamie’s Transformation"
             subtitle="Nurse, Mom of 3, & Former Athlete | Sarasota, FL"
             bgColor="bg-blue-800"
-            imageSrc="/videos/Jamie-im.png"
+            imageSrc="/videos/jamie-im.png"
             featureId="cameras"
             content={{
                 title: "Jamie’s Transformation",
@@ -130,7 +130,7 @@ export default function Home() {
             subtitle="Commercial Real Estate Agent & Dog Mom | Sarasota, FL"
             bgColor="bg-black"
             featureId="chip"
-            imageSrc="/videos/Claire-im.png"
+            imageSrc="/videos/claire-im.png"
             content={{
                 title: "Claire’s Transformation",
                 description: `
@@ -196,7 +196,7 @@ export default function Home() {
             bgColor="bg-white"
             textColor="text-white"
             featureId="design"
-            imageSrc="/videos/Crystal-im.png"
+            imageSrc="/videos/crystal-im.png"
             content={{
                 title: "Crystal’s Transformation",
                 description: `
