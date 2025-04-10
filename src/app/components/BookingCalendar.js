@@ -1,5 +1,5 @@
 import Cal, { getCalApi } from "@calcom/embed-react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
 const CAL_USERNAME = process.env.NEXT_PUBLIC_CAL_USERNAME || "your-username";
