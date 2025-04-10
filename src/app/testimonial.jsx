@@ -5,7 +5,7 @@ const TestimonialSection = () => {
       <section className="w-full py-16 bg-gray-50">
         {/* Heading and Subtitle */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-yellow-600 uppercase mb-4">
+          <h2 className="text-xl md:text-5xl font-bold text-yellow-600 uppercase mb-4">
             Trusted by 200+ Women Across the U.S.
           </h2>
           <p className="text-lg md:text-xl text-yellow-600 font-semibold">
