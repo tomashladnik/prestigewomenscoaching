@@ -259,7 +259,7 @@ export default function Home() {
               <ul className="space-y-2 text-gray-400 text-sm sm:text-base">
                 {["About Us", "Case Studies", "Join Mission", "Blog"].map((item, index) => (
                   <li key={index}>
-                    <Link href="#" className="hover:text-pink-300 transition-colors flex items-center group">
+                    <Link href={item === "Join Mission" ? "/booking" : item === "Case Studies" ? "#case-studies" : item === "Blog" ? "/blogs" : item === "About Us" ? "#about" : "#"} className="hover:text-pink-300 transition-colors flex items-center group">
                       <span className="w-0 h-0.5 bg-amber-400 group-hover:w-2 transition-all duration-300 mr-0 group-hover:mr-2"></span>
                       {item}
                     </Link>

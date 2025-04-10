@@ -77,29 +77,30 @@ export default function Navbar() {
 
       {/* Mobile Dropdown Menu */}
       {isMenuOpen && (
-        <div className="md:hidden fixed top-[4.5rem] left-0 right-0 bg-black/90 backdrop-blur-md rounded-b-lg shadow-xl z-40 transition-all duration-300 px-6 py-4">
-          <div className="flex flex-col space-y-3 text-center">
-            {["About", "Case Studies", "Blog", "Careers"].map((item, index) => (
-              <Link
-                key={index}
-                href={
-                  item === "About"
-                    ? "#about"
-                    : item === "Case Studies"
-                    ? "#case-studies"
-                    : item === "Blog"
-                    ? "/blogs"
-                    : "#"
-                }
-                className="text-sm text-gray-300 hover:text-white transition-all duration-200"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {item}
-              </Link>
-            ))}
-          </div>
-        </div>
-      )}
+  <div className="md:hidden fixed top-[4.5rem] left-0 right-0 bg-black/90 backdrop-blur-md rounded-lg shadow-xl z-40 transition-all duration-300 px-6 py-2 ml-2 mr-2">
+    <div className="flex flex-row flex-wrap justify-center items-center space-x-4 py-2">
+      {["About", "Case Studies", "Blog", "Careers"].map((item, index) => (
+        <Link
+          key={index}
+          href={
+            item === "About"
+              ? "#about"
+              : item === "Case Studies"
+              ? "#case-studies"
+              : item === "Blog"
+              ? "/blogs"
+              : "#"
+          }
+          className="text-sm text-gray-300 hover:text-white transition-all duration-200"
+          onClick={() => setIsMenuOpen(false)}
+        >
+          {item}
+        </Link>
+      ))}
+    </div>
+  </div>
+)}
+
     </nav>
   );
 }
