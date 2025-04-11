@@ -57,8 +57,8 @@ export default function Home() {
               <Image
                 src="/logo3.png"
                 alt="Logo"
-                width={300}
-                height={200}
+                width={400}
+                height={300}
                 className="object-contain p-1"
               />
             </div>

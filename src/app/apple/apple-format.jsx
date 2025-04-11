@@ -993,13 +993,23 @@ export default function Home() {
                   <p>
                     <strong>Train Where You Want. Transform How You Deserve.</strong>
                   </p>
+                   <div class="text-center mt-6">
+    <a
+      href="https://prestigewomenscoaching.com"
+      class="inline-block w-full sm:w-auto bg-pink-600 hover:bg-pink-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-200"
+      target="_blank"
+    >
+      Apply Now at PrestigeWomen'sCoaching.com
+    </a>
+    <p class="text-sm text-gray-500 mt-3">Train where you want. Transform how you deserve.</p>
+  </div>
                 `,
                 imageSrc: "/placeholder.svg?height=600&width=400"
               }}
             />
             <FeatureCard
               title="Jamie's Transformation"
-              subtitle="Nurse, Mom of 3, & Former Athlete | Sarasota, FL"
+              subtitle="Nurse, Mom of 3| Sarasota, FL"
               bgColor="bg-white"
               imageSrc="/videos/jamie-im.png"
               featureId="cameras"
@@ -1007,7 +1017,7 @@ export default function Home() {
                 title: "Jamie's Transformation",
                 description: `
                   <h3>Jamie's Transformation</h3>
-                  <p><em>Nurse, Mom of 3, & Former Athlete | Sarasota, FL</em></p>
+                  <p><em>Nurse, Mom of 3| Sarasota, FL</em></p>
               
                   <h3>Before:</h3>
                   <p>
@@ -1056,6 +1066,16 @@ export default function Home() {
                     <strong>Apply now to Prestige Women's Coaching.</strong><br />
                     Train where you want. Transform how you deserve.
                   </p>
+                   <div class="text-center mt-6">
+    <a
+      href="https://prestigewomenscoaching.com"
+      class="inline-block w-full sm:w-auto bg-pink-600 hover:bg-pink-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-200"
+      target="_blank"
+    >
+      Apply Now at PrestigeWomen'sCoaching.com
+    </a>
+    <p class="text-sm text-gray-500 mt-3">Train where you want. Transform how you deserve.</p>
+  </div>
                 `,
                 imageSrc: "/placeholder.svg?height=600&width=400"
               }}
@@ -1121,6 +1141,16 @@ export default function Home() {
                     <strong>Apply now to Prestige Women's Coaching.</strong><br />
                     Train where you want. Transform how you deserve.
                   </p>
+                     <div class="text-center mt-6">
+    <a
+      href="https://prestigewomenscoaching.com"
+      class="inline-block w-full sm:w-auto bg-pink-600 hover:bg-pink-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-200"
+      target="_blank"
+    >
+      Apply Now at PrestigeWomen'sCoaching.com
+    </a>
+    <p class="text-sm text-gray-500 mt-3">Train where you want. Transform how you deserve.</p>
+  </div>
                 `,
                 imageSrc: "/placeholder.svg?height=600&width=400"
               }}
@@ -1187,6 +1217,16 @@ export default function Home() {
                     <strong>Apply now to Prestige Women's Coaching.</strong><br />
                     Train where you want. Transform how you deserve.
                   </p>
+                   <div class="text-center mt-6">
+    <a
+      href="https://prestigewomenscoaching.com"
+      class="inline-block w-full sm:w-auto bg-pink-600 hover:bg-pink-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-200"
+      target="_blank"
+    >
+      Apply Now at PrestigeWomen'sCoaching.com
+    </a>
+    <p class="text-sm text-gray-500 mt-3">Train where you want. Transform how you deserve.</p>
+  </div>
                 `,
                 imageSrc: "/placeholder.svg?height=600&width=400"
               }}
@@ -1196,7 +1236,7 @@ export default function Home() {
           
             <FeatureCard
               title="Alexis's Transformation"
-              subtitle="T Busy Healthcare Professional | Sarasota, FL"
+              subtitle="Busy Healthcare Professional | Sarasota, FL"
               bgColor="bg-white"
               textColor="text-white"
               featureId="design"
@@ -1423,7 +1463,7 @@ export default function Home() {
           
             <FeatureCard
               title="Larissa's Transformation"
-              subtitle="Busy Mom & Entrepreneur | Sarasota, FL"
+              subtitle="Entrepreneur | Sarasota, FL"
               bgColor="bg-white"
               textColor="text-white"
               featureId="design"
@@ -1721,7 +1761,7 @@ export default function Home() {
         
             <FeatureCard
               title="Rachel's Transformation"
-              subtitle="Busy Mom & Working Professional | Sarasota, FL"
+              subtitle="Busy Mom &  Working Professional | Sarasota, FL"
               bgColor="bg-white"
               textColor="text-white"
               featureId="design"
@@ -1793,7 +1833,7 @@ export default function Home() {
             />
             <FeatureCard
               title="Emily's Transformation"
-              subtitle="Busy Executive & Mom | Sarasota, FL"
+              subtitle="Corporate Professional | Sarasota, FL"
               bgColor="bg-white"
               textColor="text-white"
               featureId="design"
@@ -1864,7 +1904,7 @@ export default function Home() {
            
             <FeatureCard
               title="Sarah's Transformation"
-              subtitle="Corporate Professional | Sarasota, FL"
+              subtitle="Busy Executive & Mom | Sarasota, FL"
               bgColor="bg-white"
               textColor="text-white"
               featureId="design"

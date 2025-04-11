@@ -4,6 +4,8 @@ export const blogs = [
     title: "Why You're Not Seeing Results (Even If You Work Out Daily) – Sarasota, Bradenton & Venice FL Edition",
     excerpt: "Why You're Not Seeing Results (Even If You Work Out Daily) – Sarasota, Bradenton & Venice FL Edition",
     content: `
+    <div class="blog-content">
+    <h1 class=" text-pink-700  text-4xl font-bold my-6">Why You're Not Seeing Results (Even If You Work Out Daily) – Sarasota, Bradenton & Venice FL Edition</h1>
       <div class="blog-content">
         <p>You lace up your sneakers, hit the gym five, maybe six times a week. You're committed, dedicated, and consistent. Yet, when you look in the mirror, the reflection doesn't align with the effort you've been putting in. It's frustrating, disheartening, and frankly, confusing. How can you be doing everything "right" and still not see the results you crave?</p>
 
@@ -11,31 +13,31 @@ export const blogs = [
 
         <p>Let's dive into the real reasons why your workouts might not be working—and how to pivot toward a strategy that delivers real, lasting results.</p>
 
-        <h2 class="text-3xl font-bold my-6">1. You're Stuck in Maintenance Mode</h2>
+        <h2 class="text-3xl text-pink-700 font-bold my-6">1. You're Stuck in Maintenance Mode</h2>
         <p><strong>The Issue:</strong> Your body is an adaptive marvel. When subjected to the same workout routines and habits over time, it becomes efficient, leading to a frustrating plateau.</p>
         <p><strong>The Solution:</strong> Introduce progressive overload into your workouts. This could mean increasing weights, reps, or intensity weekly. Whether you're training at a boutique studio in Lakewood Ranch or working out from home in Siesta Key, challenge is the key to change. Think: squat heavier, push harder, grow stronger.</p>
 
-        <h2 class="text-3xl font-bold my-6">2. You're Training, Not Transforming</h2>
+        <h2 class="text-3xl text-pink-700 font-bold my-6">2. You're Training, Not Transforming</h2>
         <p><strong>The Issue:</strong> Going through the motions without a plan leads to minimal progress.</p>
         <p><strong>The Solution:</strong> Structured training = real transformation. Your program should be tailored to your goals—whether that's fat loss, toning, or muscle building. Our clients in Venice and Osprey thrive on a strategic mix of strength training, cardio, and mobility work—often designed by our expert coaches to suit their exact body type and schedule.</p>
 
-        <h2 class="text-3xl font-bold my-6">3. You're Under-Fueling Your Body</h2>
+        <h2 class="text-3xl text-pink-700 font-bold my-6">3. You're Under-Fueling Your Body</h2>
         <p><strong>The Issue:</strong> Many women in Sarasota and Bradenton try to tone up by eating too little. Ironically, this slows your metabolism and stalls results.</p>
         <p><strong>The Solution:</strong> You need to fuel to transform. Focus on whole foods and proper macronutrient balance. At Prestige Women's Coaching, we help women across the Gulf Coast personalize their nutrition so their energy, strength, and recovery match their training intensity.</p>
 
-        <h2 class="text-3xl font-bold my-6">4. You Lack Real Accountability</h2>
+        <h2 class="text-3xl text-pink-700 font-bold my-6">4. You Lack Real Accountability</h2>
         <p><strong>The Issue:</strong> Without accountability, even the most driven women can plateau.</p>
         <p><strong>The Solution:</strong> Surround yourself with a community of support. Whether you're in Longboat Key or Venice, having a coach to check in with, adjust your plan, and push you past your comfort zone makes all the difference. Our in-home and gym coaching keeps our clients in Sarasota and beyond consistent, motivated, and thriving.</p>
 
-        <h2 class="text-3xl font-bold my-6">5. Your Recovery Is Insufficient</h2>
+        <h2 class="text-3xl text-pink-700 font-bold my-6">5. Your Recovery Is Insufficient</h2>
         <p><strong>The Issue:</strong> More isn't always better. Overtraining without recovery leads to burnout, injuries, and stalled results.</p>
         <p><strong>The Solution:</strong> Incorporate active rest days, prioritize sleep, and practice recovery rituals like stretching or yoga. Many of our clients in Osprey and Lakewood Ranch see better results once they stop overtraining and start listening to their body.</p>
 
-        <h2 class="text-3xl font-bold my-6">6. Stress and Mindset Factors</h2>
+        <h2 class="text-3xl text-pink-700 font-bold my-6">6. Stress and Mindset Factors</h2>
         <p><strong>The Issue:</strong> Chronic stress affects your hormones, eating habits, and sleep—all of which impact your progress.</p>
         <p><strong>The Solution:</strong> Wellness isn't just about what happens in the gym. From Sarasota beaches to Bradenton yoga studios, we encourage our clients to integrate mindfulness practices, breathwork, and mindset coaching into their weekly routine. The transformation begins from within.</p>
 
-        <h2 class="text-3xl font-bold my-6">Putting It All Together – Your Local Fitness Breakthrough in Sarasota, FL</h2>
+        <h2 class="text-3xl text-pink-700 font-bold my-6">Putting It All Together – Your Local Fitness Breakthrough in Sarasota, FL</h2>
         <p>True body transformation goes beyond just showing up at the gym. It requires:</p>
         <ul class="list-disc pl-6 my-4">
           <li class="my-2">✅ A progressive, structured training plan tailored to your goals</li>
@@ -47,7 +49,7 @@ export const blogs = [
 
         <p>If you're a woman in Sarasota, Bradenton, Venice, Lakewood Ranch, Longboat Key, Siesta Key, or Osprey, Florida who's ready to finally see the results you've been working for, you don't have to go it alone.</p>
 
-        <h2 class="text-3xl font-bold my-6">💪 Join The Ultimate Women's Transformation Experience</h2>
+        <h2 class="text-3xl text-pink-700 font-bold my-6">💪 Join The Ultimate Women's Transformation Experience</h2>
         <p>At <strong>Prestige Women's Coaching</strong>, we specialize in high-touch, results-driven programs tailored for women like you—ambitious, driven, and ready to take their body and confidence to the next level.</p>
 
         <p>📍 We coach women across Sarasota County and Manatee County, offering in-home training, gym partnerships, and personalized fitness + nutrition plans that actually work.</p>
@@ -57,7 +59,7 @@ export const blogs = [
         <p>💪 Let's make 2025 your year of transformation. Apply now and let's get you the results you deserve.</p>
       </div>
     `,
-    date: "2024-04-07",
+    date: "2024-04-01",
     image: "/blog-image/b1.jpg",
     author: "Dr. Sarah Johnson",
     slug: "10-tips-for-healthy-lifestyle"
@@ -68,7 +70,7 @@ export const blogs = [
     excerpt: " The Smart Woman’s Guide to Getting Toned — Without Overtraining (Sarasota, Bradenton & Gulf Coast Edition)",
     content: `
       <div class="blog-content">
-  <h1 class="text-4xl font-bold my-6">The Smart Woman’s Guide to Getting Toned — Without Overtraining (Sarasota, Bradenton & Gulf Coast Edition)</h1>
+  <h1 class=" text-pink-700  text-4xl font-bold my-6">The Smart Woman’s Guide to Getting Toned — Without Overtraining (Sarasota, Bradenton & Gulf Coast Edition)</h1>
 
   <p>You want to look defined. Strong. Lean. Toned. But if you’re like many high-performing women in Sarasota, Lakewood Ranch, Bradenton, Venice, Siesta Key, Longboat Key, or Osprey, you've been taught that “toned” means more — more cardio, more reps, more restriction.</p>
 
@@ -80,7 +82,7 @@ export const blogs = [
 
   <p>Let’s break down exactly how to tone up the smart way — and why what you’re doing might not be working.</p>
 
-  <h2 class="text-3xl font-bold my-6">What Does “Toned” Actually Mean?</h2>
+  <h2 class="text-3xl text-pink-700 font-bold my-6">What Does “Toned” Actually Mean?</h2>
   <p>Let’s clear this up first — “toning” isn’t a specific type of workout. Getting toned = building lean muscle + reducing body fat.</p>
   <p>You don’t need endless bootcamp classes or starvation diets. You need to:</p>
   <ul class="list-disc pl-6 my-4">
@@ -90,7 +92,7 @@ export const blogs = [
   </ul>
   <p>That’s how we get our clients in Sarasota, Bradenton, and Venice strong, lean, and sculpted — without extreme measures.</p>
 
-  <h2 class="text-3xl font-bold my-6">Why Overtraining Backfires</h2>
+  <h2 class="text-3xl text-pink-700 font-bold my-6">Why Overtraining Backfires</h2>
   <p>If you’re working out 6–7 days a week, crushing HIIT classes in Lakewood Ranch and living on low calories — and still not seeing changes — your body might be in survival mode.</p>
   <p><strong>Signs of overtraining include:</strong></p>
   <ul class="list-disc pl-6 my-4">
@@ -102,7 +104,7 @@ export const blogs = [
   </ul>
   <p>Your body sees intense training + under-eating as stress. And when stress is high, your body holds fat and breaks down muscle — the exact opposite of what you want.</p>
 
-  <h2 class="text-3xl font-bold my-6">How to Get Toned (Without Burnout)</h2>
+  <h2 class="text-3xl text-pink-700 font-bold my-6">How to Get Toned (Without Burnout)</h2>
   <p>Ready to work smarter? Here’s the exact formula we use with clients from Longboat Key to Siesta Key:</p>
 
   <h3 class="text-2xl font-semibold my-4">1. Prioritize Strength Training</h3>
@@ -160,7 +162,7 @@ export const blogs = [
   </ul>
   <p>Burned-out bodies don’t get toned. Balanced bodies do.</p>
 
-  <h2 class="text-3xl font-bold my-6">Real Talk: You Don’t Need More Workouts. You Need More Strategy.</h2>
+  <h2 class="text-3xl text-pink-700 font-bold my-6">Real Talk: You Don’t Need More Workouts. You Need More Strategy.</h2>
   <p>At Prestige Women’s Coaching, our clients don’t spend hours at the gym — they train with purpose. They:</p>
   <ul class="list-disc pl-6 my-4">
     <li class="my-2">✅ Train 3–4x/week with a plan</li>
@@ -171,7 +173,7 @@ export const blogs = [
   </ul>
   <p>We serve women across Sarasota County and Manatee County, offering in-home, in-gym, and virtual coaching to fit your schedule and lifestyle.</p>
 
-  <h2 class="text-3xl font-bold my-6">What Happens When You Get It Right?</h2>
+  <h2 class="text-3xl text-pink-700   font-bold my-6">What Happens When You Get It Right?</h2>
   <p>You feel in control. Your clothes fit better. You look in the mirror and smile — not because you’re “perfect,” but because you’re finally making progress that sticks.</p>
 
   <p>💬 <strong>Ready to finally see results without the burnout?</strong></p>
@@ -182,7 +184,7 @@ export const blogs = [
 </div>
 
     `,
-    date: "2025-04-07",
+    date: "2025-03-12",
     image: "/blog-image/b2.jpg",
     author: "Prestige Women's Coaching",
     slug: "the-smart-woman-s-guide-to-getting-toned"
@@ -193,7 +195,7 @@ export const blogs = [
     excerpt: "At-Home Workouts That Actually Work: How to Train Effectively Without the Gym (Sarasota, Bradenton & Gulf Coast Women’s Edition)",
     content: 
     `<div class="blog-content">
-  <h1 class="text-4xl font-bold my-6">At-Home Workouts That Actually Work: How to Train Effectively Without the Gym (Sarasota, Bradenton & Gulf Coast Women’s Edition)</h1>
+  <h1 class=" text-pink-700  text-4xl font-bold my-6">At-Home Workouts That Actually Work: How to Train Effectively Without the Gym (Sarasota, Bradenton & Gulf Coast Women’s Edition)</h1>
 
   <p>Let’s be real — most at-home workouts feel like fluff.</p>
   <p>You scroll Instagram, save a few “toning” routines, squeeze in a 20-minute session between Zoom meetings in your Siesta Key condo or Lakewood Ranch kitchen, and hope it works.</p>
@@ -205,7 +207,7 @@ export const blogs = [
   <p>✅ <strong>At-home training absolutely works</strong> — if you follow a real system.</p>
   <p>And that’s exactly what we provide at <strong>Prestige Women’s Coaching</strong>, right here in Sarasota, Bradenton, Venice, Longboat Key, and beyond.</p>
 
-  <h2 class="text-3xl font-bold my-6">The Reality for Most Women on Florida’s Gulf Coast</h2>
+  <h2 class="text-3xl text-pink-700 font-bold my-6">The Reality for Most Women on Florida’s Gulf Coast</h2>
   <p>You might think:</p>
   <ul class="list-disc pl-6 my-4">
     <li class="my-2">❌ “If I’m not in a gym, it won’t be effective.”</li>
@@ -217,7 +219,7 @@ export const blogs = [
   <p>But when you pair structure + expert support, your home becomes a transformation zone.</p>
   <p>We’ve helped women in Osprey, Sarasota, and Lakewood Ranch sculpt lean, confident bodies from home — no gym required.</p>
 
-  <h2 class="text-3xl font-bold my-6">Mistake #1: Random Workouts</h2>
+  <h2 class="text-3xl text-pink-700 font-bold my-6">Mistake #1: Random Workouts</h2>
   <p>Doing whatever feels good that day — booty bands, Pilates, or a YouTube HIIT — leads to random results.</p>
   <p>Your body needs progressive overload, not Pinterest inspiration.</p>
 
@@ -230,7 +232,7 @@ export const blogs = [
   </ul>
   <p>With the right structure, your garage in Venice or back patio in Siesta Key becomes your gym.</p>
 
-  <h2 class="text-3xl font-bold my-6">Want to Know What Else You Need?</h2>
+  <h2 class="text-3xl text-pink-700 font-bold my-6">Want to Know What Else You Need?</h2>
   <p>We’ll break that down in Part 2: from motivation to meal prep to making your living room the most results-driven space in your home.</p>
 
   <p>💪 <strong>Ready to train smarter, not harder?</strong></p>
@@ -239,7 +241,7 @@ export const blogs = [
   <p>You don’t need a fancy gym. You just need a proven plan — and we’ve got you covered, Gulf Coast ladies.</p>
 </div>`
 ,
-    date: "2024-04-07",
+    date: "2025-03-23",
     image: "/blog-image/b3.png",
     author: "Prestige Women's Coaching",
     slug: "at-home-workouts-that-actually-work-how-to-train-effectively-without-the-gym-sarasota-bradenton-gulf-coast-womens-edition"
@@ -250,7 +252,7 @@ export const blogs = [
     excerpt: "Cardio vs. Strength: What’s Best for Fat Loss & Definition? (Sarasota, Lakewood Ranch & Gulf Coast Women’s Guide)",
     content: 
     `<div class="blog-content">
-  <h1 class="text-4xl font-bold my-6">Cardio vs. Strength: What’s Best for Fat Loss & Definition? (Sarasota, Lakewood Ranch & Gulf Coast Women’s Guide)</h1>
+  <h1 class=" text-pink-700  text-4xl font-bold my-6">Cardio vs. Strength: What’s Best for Fat Loss & Definition? (Sarasota, Lakewood Ranch & Gulf Coast Women’s Guide)</h1>
 
   <p>Let’s settle this once and for all.</p>
   <p>If your goal is to lose fat, look more defined, and feel stronger, you’ve likely asked yourself:</p>
@@ -261,12 +263,12 @@ export const blogs = [
   <p>But here’s the truth:</p>
   <p>⚖ <strong>Fat loss isn’t about cardio or strength.</strong> It’s about using the right tool, at the right time, in the right dose — something we coach every client through inside <strong>The Ultimate Women’s Transformation Experience</strong>.</p>
 
-  <h2 class="text-3xl font-bold my-6">🚫 The Big Mistake: Cardio = Fat Loss?</h2>
+  <h2 class="text-3xl text-pink-700 font-bold my-6">🚫 The Big Mistake: Cardio = Fat Loss?</h2>
   <p>Cardio feels productive: You sweat, your Apple Watch says 500 calories burned, and you walk away feeling like you earned your results.</p>
   <p>But… if cardio alone worked, wouldn’t every runner have the body they want?</p>
   <p><strong>Cardio burns calories today. Strength training changes your body for life.</strong></p>
 
-  <h2 class="text-3xl font-bold my-6">🔥 Why Strength Training Is the Foundation</h2>
+  <h2 class="text-3xl text-pink-700 font-bold my-6">🔥 Why Strength Training Is the Foundation</h2>
   <p>If you want to:</p>
   <ul class="list-disc pl-6 my-4">
     <li class="my-2">✅ Drop body fat</li>
@@ -292,7 +294,7 @@ export const blogs = [
 
   <p><strong>Cardio burns calories. Strength burns fat — for life.</strong></p>
 
-  <h2 class="text-3xl font-bold my-6">💥 When Cardio Does Help</h2>
+  <h2 class="text-3xl text-pink-700 font-bold my-6">💥 When Cardio Does Help</h2>
   <p>Let’s be clear — we’re not anti-cardio at Prestige. We’re anti-doing-it-wrong.</p>
   <p>Cardio supports fat loss when used smartly:</p>
   <ul class="list-disc pl-6 my-4">
@@ -311,7 +313,7 @@ export const blogs = [
 
   <p>Think of cardio like seasoning, not the main dish.</p>
 
-  <h2 class="text-3xl font-bold my-6">🧩 What Actually Works: The Prestige Method</h2>
+  <h2 class="text-3xl text-pink-700 font-bold my-6">🧩 What Actually Works: The Prestige Method</h2>
   <p>Here’s what we build into every program for women across Sarasota County and Manatee County:</p>
 
   <ol class="list-decimal pl-6 my-4">
@@ -348,7 +350,7 @@ export const blogs = [
     </li>
   </ol>
 
-  <h2 class="text-3xl font-bold my-6">🛑 Why All-Cardio Plans Fail</h2>
+  <h2 class="text-3xl text-pink-700 font-bold my-6">🛑 Why All-Cardio Plans Fail</h2>
   <p>Doing cardio every day + slashing calories = the fastest way to:</p>
   <ul class="list-disc pl-6 my-4">
     <li class="my-2">❌ Slow your metabolism</li>
@@ -359,13 +361,21 @@ export const blogs = [
   <p>And when you stop? The weight comes back — with interest.</p>
   <p>We’ve seen this with women from Siesta Key to Bradenton who finally ditched the treadmill obsession and built real strength instead.</p>
 
-  <h2 class="text-3xl font-bold my-6">✅ Real Results from Real Women</h2>
+  <h2 class="text-3xl text-pink-700 font-bold my-6">✅ Real Results from Real Women</h2>
   <p><strong>Emily</strong> trained 4x/week, walked daily, and barely touched traditional cardio. She lost 12 lbs of body fat and dropped 2 sizes in 16 weeks.</p>
   <p><strong>Sarah</strong>, a mom of 3 in Lakewood Ranch, cut daily cardio in half, lifted 3x/week, and walked 8k steps/day. She leaned out more while doing less — all with better energy and less stress.</p>
-  <p>This isn’t theory. This
-</div>`
+  <p>This isn’t theory. This is what happens when you use the right tools, at the right times, in the right doses.</p>
+</div>
+ <div class="text-center mt-8">
+    <h2 class="text-2xl text-pink-700 font-bold">💬 READY TO EAT FOR RESULTS (WITHOUT GIVING UP YOUR LIFE)?</h2>
+    <p>If you’re ready to lose fat, gain energy, and build a confident body — without giving up your favorite foods — we’ve got you.</p>
+    <p>Apply now for <strong>The Ultimate Women’s Transformation Experience</strong> at <a href="https://www.prestigewomenscoaching.com" class="text-blue-600 underline">prestigewomenscoaching.com</a></p>
+    <p><strong>Train Where You Want. Transform How You Deserve.</strong></p>
+    <p>— Serving Sarasota, Bradenton, Venice, Siesta Key, Longboat Key & Osprey</p>
+  </div>
+`
 ,
-    date: "2024-04-07",
+    date: "2024-05-14",
     image: "/blog-image/b4.jpg",
     author: "Prestige Women's Coaching",
     slug: "cardio-vs-strength-what-s-best-for-fat-loss-definition-sarasota-lakewood-ranch-gulf-coast-womens-guide"
@@ -376,198 +386,197 @@ export const blogs = [
     excerpt: "How to Break a Plateau — Without Doing More",
     content: 
     `<div>
-  <h1>How to Break a Plateau — Without Doing More</h1>
-  <h3>(For Women in Sarasota, Bradenton, Venice & the Gulf Coast)</h3>
+ <div class="max-w-4xl mx-auto px-4 py-8">
+  <h1 class="text-4xl font-bold text-center text-pink-600 mb-6">
+    How to Break a Plateau — Without Doing More
+  </h1>
 
-  <p>You’re consistent. <br>
-  You’re eating clean. <br>
-  You’re showing up.<br>
-  But the scale won’t budge. <br>
-  Your strength is flat. <br>
-  Your motivation is slipping.<br>
-  Welcome to the plateau.</p>
+  <p class="text-lg mb-4 text-gray-700">
+    <strong>You’re consistent. You’re eating clean. You’re showing up.</strong><br/>
+    But the scale won’t budge. Your strength is flat. Your motivation is slipping.
+  </p>
 
-  <p>And if you're like many high-performing women in Sarasota, Lakewood Ranch, Venice, or Bradenton, your first instinct might be:</p>
+  <p class="text-lg mb-4 text-gray-700">
+    Welcome to the plateau.<br/>
+    And if you're like many high-performing women in <strong>Sarasota, Lakewood Ranch, Venice</strong>, or <strong>Bradenton</strong>, your first instinct might be:
+  </p>
 
-  <p><strong>“I need to do more.”</strong></p>
+  <p class="text-lg mb-4 text-pink-600 font-semibold italic">
+    “I need to do more.”
+  </p>
 
-  <ul>
-    <li>More workouts. Less food.</li>
-    <li>More cardio. Less rest.</li>
-    <li>More hustle… right?</li>
-  </ul>
+  <p class="text-lg mb-4 text-gray-700">
+    More workouts. Less food. More cardio. Less rest. More hustle… right?
+  </p>
 
-  <p>❌ <strong>Wrong.</strong></p>
+  <p class="text-lg mb-4 text-red-500 font-bold">❌ Wrong.</p>
 
-  <p>Plateaus don’t mean you’re slacking — they usually mean your system stopped working… or maybe, you never had the right one to begin with.</p>
+  <p class="text-lg mb-4 text-gray-700">
+    Plateaus don’t mean you’re slacking — they usually mean your system stopped working… or maybe, you never had the right one to begin with.
+  </p>
 
-  <p>At <strong>Prestige Women’s Coaching</strong>, we specialize in helping women across Florida’s Gulf Coast break through plateaus — without burnout, crash diets, or doubling your workouts.</p>
+  <h2 class="text-2xl font-bold text-pink-500 mt-10 mb-4">🚫 Why Most Plateau Advice Fails</h2>
 
-  <h3>🚫 Why Most Plateau Advice Fails</h3>
-  <p>What most “experts” tell you:</p>
-  <ul>
+  <p class="text-lg mb-2 text-gray-700">
+    What most “experts” tell you:
+  </p>
+  <ul class="list-disc list-inside text-gray-700 mb-4">
     <li>Cut more calories</li>
     <li>Add more cardio</li>
     <li>“Tighten up” tracking</li>
     <li>Do a detox or 30-day challenge</li>
   </ul>
 
-  <p>What it actually leads to:</p>
-  <ul>
-    <li>❌ Slowed metabolism</li>
-    <li>❌ Fatigue and burnout</li>
-    <li>❌ Muscle loss (your fat-burning tissue)</li>
-    <li>❌ More frustration</li>
+  <p class="text-lg mb-2 text-gray-700">What it actually leads to:</p>
+  <ul class="list-disc list-inside text-red-500 mb-4">
+    <li>Slowed metabolism</li>
+    <li>Fatigue and burnout</li>
+    <li>Muscle loss (your fat-burning tissue)</li>
+    <li>More frustration</li>
   </ul>
 
-  <p>You can’t burn out your body into progress. You have to work with it — not against it.</p>
+  <h2 class="text-2xl font-bold text-pink-500 mt-10 mb-4">⚠ 3 Reasons You Might Be Stuck</h2>
 
-  <h3>⚠ 3 Reasons You Might Be Stuck</h3>
-  <ol>
-    <li><strong>Your Body Has Adapted to Your Routine</strong><br>
-    If you’ve been doing the same workouts, same reps, and same macros — your body adjusts. And once it adapts, it stops changing. Efficiency kills results.</li>
+  <h3 class="text-xl font-semibold text-gray-800 mb-2">1. Your Body Has Adapted to Your Routine</h3>
+  <p class="text-lg mb-4 text-gray-700">
+    If you’ve been doing the same workouts, same reps, and same macros — your body adjusts and stops changing. Efficiency kills results.
+  </p>
 
-    <li><strong>You’re Under-Recovering</strong><br>
+  <h3 class="text-xl font-semibold text-gray-800 mb-2">2. You’re Under-Recovering</h3>
+  <p class="text-lg mb-4 text-gray-700">
     Busy women from Sarasota to Siesta Key are often running on low sleep and high stress. That’s a recipe for:
-      <ul>
-        <li>Cortisol spikes</li>
-        <li>Water retention</li>
-        <li>Slowed fat loss</li>
-      </ul>
-    Even with perfect workouts, lack of recovery will block results.</li>
+  </p>
+  <ul class="list-disc list-inside text-gray-700 mb-4">
+    <li>Cortisol spikes</li>
+    <li>Water retention</li>
+    <li>Slowed fat loss</li>
+  </ul>
 
-    <li><strong>You’re Stuck in the “Maintenance Middle”</strong><br>
-    You’re not eating enough to build muscle… but not eating little enough to lose fat. So your body just… maintains.</li>
-  </ol>
+  <h3 class="text-xl font-semibold text-gray-800 mb-2">3. You’re Stuck in the “Maintenance Middle”</h3>
+  <p class="text-lg mb-4 text-gray-700">
+    Not eating enough to build muscle… but not eating little enough to lose fat. So your body just… maintains.
+  </p>
 
-  <h3>✅ How to Break the Plateau — The Prestige Method</h3>
-  <p>At Prestige Women’s Coaching, we use a personalized, proven system to help our clients in Longboat Key, Osprey, and Venice break plateaus — without doing more.</p>
+  <h2 class="text-2xl font-bold text-pink-500 mt-10 mb-4">✅ How to Break the Plateau — The Prestige Method</h2>
 
-  <ol>
-    <li><strong>Reassess Your Training Plan</strong><br>
-    Ask yourself:
-      <ul>
-        <li>Am I increasing my weights or reps weekly?</li>
-        <li>Am I tracking my progress?</li>
-        <li>Am I doing the same workouts every week?</li>
-      </ul>
-    💡 We update our clients’ strength programs every 4–6 weeks based on their performance (not boredom).</li>
+  <h3 class="text-xl font-semibold text-gray-800 mb-2">1. Reassess Your Training Plan</h3>
+  <ul class="list-disc list-inside text-gray-700 mb-4">
+    <li>Am I increasing weights or reps weekly?</li>
+    <li>Am I tracking progress?</li>
+    <li>Am I doing the same workouts weekly?</li>
+  </ul>
+  <p class="text-lg mb-4 text-gray-700">
+    💡 We update clients’ strength plans every 4–6 weeks based on performance, not boredom.
+  </p>
 
-    <li><strong>Reverse Dieting or Refeeding</strong><br>
+  <h3 class="text-xl font-semibold text-gray-800 mb-2">2. Reverse Dieting or Refeeding</h3>
+  <p class="text-lg mb-2 text-gray-700">
     Sometimes, the answer isn’t to eat less — it’s to fuel more. If you’ve been dieting for 12+ weeks:
-      <ul>
-        <li>Your hormones slow down</li>
-        <li>Your metabolism adapts</li>
-        <li>Your energy crashes</li>
-      </ul>
-    That’s when we introduce:
-      <ul>
-        <li>Diet breaks</li>
-        <li>Reverse diets</li>
-        <li>Refeed days</li>
-      </ul>
-    Yes — our clients in Sarasota have eaten more and started losing again. It’s not magic. It’s strategy.</li>
+  </p>
+  <ul class="list-disc list-inside text-gray-700 mb-4">
+    <li>Your hormones slow down</li>
+    <li>Your metabolism adapts</li>
+    <li>Your energy crashes</li>
+  </ul>
+  <p class="text-lg mb-4 text-gray-700">
+    That’s when we introduce diet breaks, reverse diets, and refeed days. Yes — eating more can trigger fat loss.
+  </p>
 
-    <li><strong>Audit Your Sleep and Stress</strong><br>
-    Plateaus aren’t always physical. Many times, the real issue is:
-      <ul>
-        <li>Poor sleep</li>
-        <li>Emotional burnout</li>
-        <li>Chronic stress</li>
-      </ul>
-    Which leads to:
-      <ul>
-        <li>Inflammation</li>
-        <li>Hormonal imbalances</li>
-        <li>Digestion issues</li>
-        <li>Plateaued fat loss</li>
-      </ul>
-    🔑 The fix?
-      <ul>
-        <li>7–9 hours of sleep</li>
-        <li>Daily stress reduction (walks, journaling, boundaries)</li>
-        <li>1–2 true rest days per week</li>
-      </ul>
-    💡 Many of our clients in Lakewood Ranch and Bradenton break their plateaus by sleeping more — not training more.</li>
+  <h3 class="text-xl font-semibold text-gray-800 mb-2">3. Audit Your Sleep and Stress</h3>
+  <p class="text-lg mb-4 text-gray-700">
+    Many times, the real issue is poor sleep, emotional burnout, and chronic stress — which leads to:
+  </p>
+  <ul class="list-disc list-inside text-gray-700 mb-4">
+    <li>Inflammation</li>
+    <li>Hormonal imbalances</li>
+    <li>Digestion issues</li>
+  </ul>
+  <p class="text-lg mb-4 text-gray-700">
+    🔑 The fix? 7–9 hours of sleep, daily stress reduction (walks, journaling, boundaries), and 1–2 true rest days per week.
+  </p>
 
-    <li><strong>Track Non-Scale Wins</strong><br>
+  <h3 class="text-xl font-semibold text-gray-800 mb-2">4. Track Non-Scale Wins</h3>
+  <p class="text-lg mb-4 text-gray-700">
     The scale might stall, but progress still shows up in other ways:
-      <ul>
-        <li>Inches lost</li>
-        <li>Clothes fitting better</li>
-        <li>Strength PRs</li>
-        <li>Energy + mood improvements</li>
-        <li>Visual definition in photos</li>
-      </ul>
-    At Prestige, we teach our clients how to track the full data stack — not just the number on the scale.</li>
-
-    <li><strong>Follow Strategic Phases (Prime → Build → Cut → Sustain)</strong><br>
-    Stuck in fat loss mode forever? That’s your problem. We guide our Sarasota clients through strategic phases:
-      <ol>
-        <li><strong>Prime</strong> – Reset hormones, lower inflammation</li>
-        <li><strong>Build</strong> – Increase calories, train harder, grow muscle</li>
-        <li><strong>Cut</strong> – Short, focused fat-loss phase</li>
-        <li><strong>Sustain</strong> – Transition into maintenance with confidence</li>
-      </ol>
-    Your body was never meant to stay in a calorie deficit forever. That’s why most plans fail. Ours don’t.</li>
-  </ol>
-
-  <h3>📊 Real Client Example — Alexis (Sarasota)</h3>
-  <p>Alexis, a full-time nurse in Sarasota, came to us plateaued. She was:
-    <ul>
-      <li>Working out 6x/week</li>
-      <li>Eating 1,300 calories</li>
-      <li>Doing daily fasted cardio</li>
-    </ul>
-  She hadn’t lost a pound in 3 months.
   </p>
-  <p>We:
-    <ul>
-      <li>Increased her food by 400 calories/day</li>
-      <li>Pulled her workouts back to 4x/week</li>
-      <li>Focused on sleep, digestion, and strength</li>
-    </ul>
-  </p>
-  <p>4 weeks later:
-    <ul>
-      <li>Down 4 lbs</li>
-      <li>2 inches off her waist</li>
-      <li>Stronger, energized, and loving training again</li>
-    </ul>
-  </p>
-
-  <h3>💥 What NOT to Do When You Plateau</h3>
-  <ul>
-    <li>🚫 Slash calories again</li>
-    <li>🚫 Double your workouts</li>
-    <li>🚫 Panic and do a juice cleanse</li>
-    <li>🚫 Blame your “discipline”</li>
-  </ul>
-  <p>None of these work. They’ll only burn you out faster.</p>
-
-  <h3>🎯 What TO Do Instead</h3>
-  <ul>
-    <li>✅ Audit your current phase</li>
-    <li>✅ Rebuild a smarter training + nutrition plan</li>
-    <li>✅ Prioritize recovery and stress management</li>
-    <li>✅ Get expert guidance</li>
+  <ul class="list-disc list-inside text-gray-700 mb-4">
+    <li>Inches lost</li>
+    <li>Clothes fitting better</li>
+    <li>Strength PRs</li>
+    <li>Energy + mood improvements</li>
+    <li>Visual definition in photos</li>
   </ul>
 
-  <h3>💬 Ready to Break Your Plateau?</h3>
-  <p>If you’re tired of doing everything “right” and still not seeing change — it’s time for a system that’s built to work.</p>
+  <h3 class="text-xl font-semibold text-gray-800 mb-2">5. Follow Strategic Phases</h3>
+  <ul class="list-decimal list-inside text-gray-700 mb-4">
+    <li><strong>Prime</strong> – Reset hormones, lower inflammation</li>
+    <li><strong>Build</strong> – Increase calories, train harder, grow muscle</li>
+    <li><strong>Cut</strong> – Short, focused fat-loss phase</li>
+    <li><strong>Sustain</strong> – Transition into maintenance with confidence</li>
+  </ul>
+  <p class="text-lg mb-4 text-gray-700">
+    Your body was never meant to stay in a calorie deficit forever. That’s why most plans fail — ours don’t.
+  </p>
 
-  <p>At Prestige Women’s Coaching, we coach women in Sarasota, Venice, Lakewood Ranch, Bradenton, and surrounding areas through every plateau with structure, data, and support.</p>
+  <h2 class="text-2xl font-bold text-pink-500 mt-10 mb-4">📊 Real Client Example — Alexis (Sarasota)</h2>
+  <p class="text-lg mb-2 text-gray-700">
+    Alexis, a full-time nurse, came to us plateaued. She was:
+  </p>
+  <ul class="list-disc list-inside text-gray-700 mb-4">
+    <li>Working out 6x/week</li>
+    <li>Eating 1,300 calories</li>
+    <li>Doing daily fasted cardio</li>
+  </ul>
+  <p class="text-lg mb-2 text-gray-700">
+    We helped her:
+  </p>
+  <ul class="list-disc list-inside text-gray-700 mb-4">
+    <li>Increase food by 400 calories/day</li>
+    <li>Train 4x/week</li>
+    <li>Focus on sleep, digestion, and strength</li>
+  </ul>
+  <p class="text-lg mb-4 text-green-600 font-semibold">
+    4 weeks later: Down 4 lbs, 2 inches off her waist, more energized and stronger.
+  </p>
 
-  <p>📲 Apply now at <a href="https://prestigewomenscoaching.com">prestigewomenscoaching.com</a></p>
-  <p>📍 Serving high-performing women in Sarasota County & Manatee County</p>
-  <strong>Train Where You Want. Transform How You Deserve.</strong>
+  <h2 class="text-2xl font-bold text-pink-500 mt-10 mb-4">💥 What NOT to Do When You Plateau</h2>
+  <ul class="list-disc list-inside text-red-500 mb-4">
+    <li>Slash calories again</li>
+    <li>Double your workouts</li>
+    <li>Panic and do a juice cleanse</li>
+    <li>Blame your “discipline”</li>
+  </ul>
+
+  <h2 class="text-2xl font-bold text-pink-500 mt-10 mb-4">🎯 What TO Do Instead</h2>
+  <ul class="list-disc list-inside text-green-600 mb-6">
+    <li>Audit your current phase</li>
+    <li>Rebuild a smarter training + nutrition plan</li>
+    <li>Prioritize recovery and stress management</li>
+    <li>Get expert guidance</li>
+  </ul>
+
+  <div class="text-center mt-10">
+    <p class="text-xl font-semibold text-pink-600 mb-2">
+      💬 Ready to Break Your Plateau?
+    </p>
+    <p class="text-lg text-gray-700">
+      If you’re tired of doing everything “right” and still not seeing change — it’s time for a system that’s built to work.
+    </p>
+    <p class="mt-4 text-lg font-medium text-gray-700">
+      Visit <a href="https://prestigewomenscoaching.com" class="text-pink-600 underline">prestigewomenscoaching.com</a> to apply now.
+    </p>
+    <p class="mt-2 text-sm text-gray-500">
+      Serving high-performing women in Sarasota County & Manatee County.
+    </p>
+  </div>
 </div>
+
 `
 ,
-        date: "2024-04-07",
+        date: "2024-10-19",
     image: "/blog-image/b5.jpg",
     author: "Prestige Women's Coaching",
-    slug: "cardio-vs-strength-what-s-best-for-fat-loss-definition-sarasota-lakewood-ranch-gulf-coast-womens-guide"
+    slug: "how-to-break-the-plateau-the-prestige-method-sarasota-bradenton-gulf-coast-womens-guide"
   },    
   {
     id: 6,
@@ -576,7 +585,7 @@ export const blogs = [
     content: 
     `
     <div class="max-w-4xl mx-auto px-4 py-8 space-y-6">
-  <h1 class="text-3xl font-bold text-center">
+  <h1 class="text-3xl text-pink-700 font-bold text-center">
     How to Eat for Results Without Giving Up Wine, Chocolate, or Brunch
   </h1>
   <h2 class="text-xl text-center text-gray-600">
@@ -593,7 +602,7 @@ export const blogs = [
   </div>
 
   <div>
-    <h2 class="text-2xl font-semibold mt-6">🚫 THE PROBLEM: “All or Nothing” Thinking</h2>
+    <h2 class="text-2xl text-pink-700 font-bold mt-6">🚫 THE PROBLEM: “All or Nothing” Thinking</h2>
     <p>Most women have been taught there are only two modes:</p>
     <ol class="list-decimal list-inside">
       <li>Clean eating perfection — chicken, broccoli, water.</li>
@@ -604,7 +613,7 @@ export const blogs = [
   </div>
 
   <div>
-    <h2 class="text-2xl font-semibold mt-6">💡 THE SOLUTION: Flexible Nutrition With Structure</h2>
+    <h2 class="text-2xl text-pink-700 font-bold mt-6">💡 THE SOLUTION: Flexible Nutrition With Structure</h2>
     <p>Instead of eliminating everything, we focus on building a balanced system with:</p>
     <ul class="list-disc list-inside">
       <li>Freedom</li>
@@ -613,7 +622,7 @@ export const blogs = [
     </ul>
     <p>So you can enjoy your favorite foods guilt-free — and still hit your goals.</p>
 
-    <h3 class="text-xl font-semibold mt-4">1. Focus on Foundation, Not Perfection</h3>
+    <h3 class="text-xl text-pink-700 font-bold mt-4">1. Focus on Foundation, Not Perfection</h3>
     <p>At Prestige, we use a 3-part foundation for every client in Sarasota and the Gulf Coast areas:</p>
     <p><strong>The Daily 3:</strong></p>
     <ul class="list-disc list-inside">
@@ -623,7 +632,7 @@ export const blogs = [
     </ul>
     <p>When these basics are in place, you create room for the occasional wine night or dessert — and your results won’t suffer.</p>
 
-    <h3 class="text-xl font-semibold mt-4">2. Use the 80/20 Rule — The Right Way</h3>
+    <h3 class="text-xl text-pink-700 font-bold mt-4">2. Use the 80/20 Rule — The Right Way</h3>
     <p>You’ve probably heard of 80/20 eating: 80% whole, nutrient-dense food; 20% flexibility. But most people do it wrong:</p>
     <ul class="list-disc list-inside">
       <li>Monday–Friday: restrict</li>
@@ -636,7 +645,7 @@ export const blogs = [
       <li>20% of your day = wine, dark chocolate, or dinner out</li>
     </ul>
 
-    <h3 class="text-xl font-semibold mt-4">3. Plan for Pleasure, Don’t React to It</h3>
+    <h3 class="text-xl text-pink-700 font-bold mt-4">3. Plan for Pleasure, Don’t React to It</h3>
     <p>It’s not the chocolate or brunch that ruins your progress — it’s the mindset that says: “Well, I already messed up, so I’ll start again Monday.”</p>
     <p>What if you planned for the things you love?</p>
     <p>Our Sarasota clients pre-log events like:</p>
@@ -646,7 +655,7 @@ export const blogs = [
       <li>Sunday brunch in Siesta Key</li>
     </ul>
 
-    <h3 class="text-xl font-semibold mt-4">4. Upgrade, Don’t Eliminate</h3>
+    <h3 class="text-xl text-pink-700 font-bold mt-4">4. Upgrade, Don’t Eliminate</h3>
     <p>Want to feel in control without missing out? Start upgrading the foods you already love:</p>
     <ul class="list-disc list-inside">
       <li>🍫 Swap milk chocolate for dark</li>
@@ -655,7 +664,7 @@ export const blogs = [
       <li>🍳 Choose protein-rich brunch over sugary options</li>
     </ul>
 
-    <h3 class="text-xl font-semibold mt-4">5. Fuel Your Body, Not Just Your Cravings</h3>
+    <h3 class="text-xl text-pink-700 font-bold mt-4">5. Fuel Your Body, Not Just Your Cravings</h3>
     <p>You’re not dieting to get smaller. You’re eating to get stronger, leaner, and more energized.</p>
     <ul class="list-disc list-inside">
       <li>More protein = more lean muscle</li>
@@ -665,7 +674,7 @@ export const blogs = [
   </div>
 
   <div>
-    <h2 class="text-2xl font-semibold mt-6">📊 REAL CLIENT EXAMPLE</h2>
+    <h2 class="text-2xl text-pink-700 font-bold mt-6">📊 REAL CLIENT EXAMPLE</h2>
     <p><strong>Beth</strong>, from Longboat Key, came to us frustrated. She was either eating “perfectly” or gaining it back every weekend.</p>
     <p>We created a customized plan for her that included:</p>
     <ul class="list-disc list-inside">
@@ -677,7 +686,7 @@ export const blogs = [
   </div>
 
   <div>
-    <h2 class="text-2xl font-semibold mt-6">✅ LOCAL BONUS: Eating Out Smart on the Gulf Coast</h2>
+    <h2 class="text-2xl text-pink-700 font-bold mt-6">✅ LOCAL BONUS: Eating Out Smart on the Gulf Coast</h2>
     <p>We help clients eat out smart at local favorites in:</p>
     <ul class="list-disc list-inside">
       <li><strong>Sarasota:</strong> Selva Grill, Shore, Indigenous</li>
@@ -691,7 +700,7 @@ export const blogs = [
   </div>
 
   <div class="text-center mt-8">
-    <h2 class="text-2xl font-bold">💬 READY TO EAT FOR RESULTS (WITHOUT GIVING UP YOUR LIFE)?</h2>
+    <h2 class="text-2xl text-pink-700 font-bold">💬 READY TO EAT FOR RESULTS (WITHOUT GIVING UP YOUR LIFE)?</h2>
     <p>If you’re ready to lose fat, gain energy, and build a confident body — without giving up your favorite foods — we’ve got you.</p>
     <p>Apply now for <strong>The Ultimate Women’s Transformation Experience</strong> at <a href="https://www.prestigewomenscoaching.com" class="text-blue-600 underline">prestigewomenscoaching.com</a></p>
     <p><strong>Train Where You Want. Transform How You Deserve.</strong></p>
@@ -701,7 +710,7 @@ export const blogs = [
 
 `
 ,
-    date: "2024-04-07",
+    date: "2025-01-01",
     image: "/blog-image/b6.jpg",
     author: "Prestige Women's Coaching",
     slug: "how-to-eat-for-results-without-giving-up-wine-chocolate-or-brunch-sarasota-bradenton-gulf-coast-womens-guide"
@@ -713,11 +722,11 @@ export const blogs = [
     content: 
     `
    <div class="max-w-4xl mx-auto px-4 py-8">
-  <h1 class="text-3xl font-bold mb-4">
+  <h1 class="text-3xl text-pink-700 font-bold mb-4">
     Why Most Diets Fail High-Achieving Women (and What Actually Works)
   </h1>
 
-  <h2 class="text-xl font-semibold mb-2">For driven women in Sarasota, Bradenton, Venice, Siesta Key, Longboat Key & Osprey, FL</h2>
+  <h2 class="text-xl text-pink-700 font-bold mb-2">For driven women in Sarasota, Bradenton, Venice, Siesta Key, Longboat Key & Osprey, FL</h2>
 
   <div class="mb-6">
     <p>You’re smart. You’re successful. You’re used to getting results when you put in the effort.</p>
@@ -732,7 +741,7 @@ export const blogs = [
     <blockquote class="italic border-l-4 border-gray-400 pl-4">“I’m doing everything ‘right’… but it’s not working anymore.”</blockquote>
   </div>
 
-  <h2 class="text-2xl font-bold mt-8 mb-4">❌ The Diet Trap: Why They Keep Failing You</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mt-8 mb-4">❌ The Diet Trap: Why They Keep Failing You</h2>
   <div class="mb-6">
     <p>Diets are built for the short-term. Your life is not.</p>
     <p>Most traditional diets fail because they’re:</p>
@@ -746,7 +755,7 @@ export const blogs = [
     <p>They don’t teach you how to live — they teach you how to survive for 30 days.</p>
   </div>
 
-  <h2 class="text-2xl font-bold mt-8 mb-4">📉 What Happens When You Diet Like Everyone Else</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mt-8 mb-4">📉 What Happens When You Diet Like Everyone Else</h2>
   <div class="mb-6">
     <p>You might start strong. But eventually:</p>
     <ul class="list-disc ml-6">
@@ -760,9 +769,9 @@ export const blogs = [
     <p>Worse — you internalize the failure as your fault. But it’s not you. It’s the system.</p>
   </div>
 
-  <h2 class="text-2xl font-bold mt-8 mb-4">💡 What High-Achieving Women Actually Need</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mt-8 mb-4">💡 What High-Achieving Women Actually Need</h2>
   <div class="mb-6">
-    <h3 class="text-xl font-semibold mb-2">1. A Personalized Plan</h3>
+    <h3 class="text-xl text-pink-700 font-bold mb-2">1. A Personalized Plan</h3>
     <p>Your body, stress levels, schedule, and lifestyle are unique. A copy-paste plan from the internet won’t cut it.</p>
     <p>Our clients at Prestige Women’s Coaching get custom training and nutrition built around:</p>
     <ul class="list-disc ml-6">
@@ -775,7 +784,7 @@ export const blogs = [
   </div>
 
   <div class="mb-6">
-    <h3 class="text-xl font-semibold mb-2">2. Sustainability Over Perfection</h3>
+    <h3 class="text-xl text-pink-700 font-bold mb-2">2. Sustainability Over Perfection</h3>
     <p>You don’t need to eat “clean” 100% of the time.</p>
     <p>You need a plan that:</p>
     <ul class="list-disc ml-6">
@@ -787,7 +796,7 @@ export const blogs = [
   </div>
 
   <div class="mb-6">
-    <h3 class="text-xl font-semibold mb-2">3. Flexible Structure With Clear Boundaries</h3>
+    <h3 class="text-xl text-pink-700 font-bold mb-2">3. Flexible Structure With Clear Boundaries</h3>
     <p>Structure gives you freedom. But flexibility makes it doable.</p>
     <ul class="list-disc ml-6">
       <li>Plan ahead for social events</li>
@@ -798,7 +807,7 @@ export const blogs = [
   </div>
 
   <div class="mb-6">
-    <h3 class="text-xl font-semibold mb-2">4. Mindset Coaching for Long-Term Success</h3>
+    <h3 class="text-xl text-pink-700 font-bold mb-2">4. Mindset Coaching for Long-Term Success</h3>
     <p>You’ve been trained to think:</p>
     <ul class="list-disc ml-6">
       <li>“I need to do more.”</li>
@@ -814,7 +823,7 @@ export const blogs = [
     <p>We track more than weight — we track strength, photos, inches, energy, confidence, and consistency.</p>
   </div>
 
-  <h2 class="text-2xl font-bold mt-8 mb-4">🚀 What Our Clients Do Differently</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mt-8 mb-4">🚀 What Our Clients Do Differently</h2>
   <div class="mb-6">
     <p>Across Sarasota, Bradenton, and Siesta Key, our clients:</p>
     <ul class="list-disc ml-6">
@@ -834,7 +843,7 @@ export const blogs = [
     </ul>
   </div>
 
-  <h2 class="text-2xl font-bold mt-8 mb-4">✨ Real Client Story: Madison from Sarasota</h2>
+    <h2 class="text-2xl text-pink-700 font-bold mt-8 mb-4">✨ Real Client Story: Madison from Sarasota</h2>
   <div class="mb-6">
     <p>Madison, a corporate consultant in Sarasota, came to us exhausted.</p>
     <p>She had tried Whole30, keto, and intermittent fasting. She lost weight — but always gained it back.</p>
@@ -849,7 +858,7 @@ export const blogs = [
     <blockquote class="italic border-l-4 border-gray-400 pl-4">“For the first time, I’m not dieting. I’m just living — and my body is changing.”</blockquote>
   </div>
 
-  <h2 class="text-2xl font-bold mt-8 mb-4">💬 Ready to Do It Differently?</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mt-8 mb-4">💬 Ready to Do It Differently?</h2>
   <div class="mb-6">
     <p>If you're tired of diets that burn you out, backfire, and make you feel like you failed — it’s time to switch the strategy.</p>
     <p>Whether you're in Sarasota, Bradenton, Venice, Siesta Key, Osprey, or Longboat Key — Prestige Women’s Coaching can help you build strength, lose fat, and finally feel at peace with food.</p>
@@ -862,7 +871,7 @@ export const blogs = [
 
 `
 ,
-    date: "2024-04-07",
+    date: "2025-02-07",
     image: "/blog-image/b7.jpg",
     author: "Prestige Women's Coaching",
     slug: "why-most-diets-fail-high-achieving-women-and-what-actually-works-sarasota-bradenton-gulf-coast-womens-guide"
@@ -873,44 +882,44 @@ export const blogs = [
     excerpt: "Metabolic Optimization: What It Is & Why You Should Care (Sarasota, Bradenton & Gulf Coast Women’s Guide)",
     content: 
     `
-   <div className="px-6 py-10 max-w-5xl mx-auto">
-  <h1 className="text-4xl font-bold mb-4">Metabolic Optimization: What It Is & Why You Should Care</h1>
-  <h2 className="text-lg text-gray-600 mb-6">
+   <div class="px-6 py-10 max-w-5xl mx-auto">
+  <h1 class="text-4xl text-pink-700 font-bold mb-4">Metabolic Optimization: What It Is & Why You Should Care</h1>
+  <h2 class="text-lg text-gray-600 mb-6">
     For women in Sarasota, Bradenton, Venice, Siesta Key, Longboat Key & Osprey, FL
   </h2>
 
-  <section className="mb-8">
+  <section class="mb-8">
     <p>You’re working out. You’re eating “healthy.” You’re doing all the things — but your body just isn’t responding.</p>
-    <p className="mt-2">You’re stuck. You’re frustrated. And you’re exhausted from constantly trying to “reset.”</p>
-    <p className="mt-2">If this sounds like you, it’s not just a motivation problem. It could be your metabolism.</p>
-    <p className="mt-2">
+    <p class="mt-2">You’re stuck. You’re frustrated. And you’re exhausted from constantly trying to “reset.”</p>
+    <p class="mt-2">If this sounds like you, it’s not just a motivation problem. It could be your metabolism.</p>
+    <p class="mt-2">
       And no, we’re not talking about “slow metabolism” in the way most TikToks do. We’re talking about something deeper: <strong>Metabolic Optimization</strong>.
     </p>
-    <p className="mt-2">
+    <p class="mt-2">
       At <strong>Prestige Women’s Coaching</strong>, we help women across Sarasota and the Gulf Coast take back control of their body — not by eating less and moving more, but by getting their metabolism to actually work for them.
     </p>
-    <p className="mt-2">Let’s break down what that really means — and how it changes everything.</p>
+    <p class="mt-2">Let’s break down what that really means — and how it changes everything.</p>
   </section>
 
-  <section className="mb-10">
-    <h2 className="text-2xl font-semibold mb-3">⚠ First, What Is Metabolism Really?</h2>
+  <section class="mb-10">
+    <h2 class="text-2xl text-pink-700 font-bold mb-3">⚠ First, What Is Metabolism Really?</h2>
     <p>Most people think metabolism = how fast you burn calories. But it’s more than that.</p>
-    <p className="mt-2">Your metabolism is the entire system that:</p>
-    <ul className="list-disc pl-6 mt-2 space-y-1">
+    <p class="mt-2">Your metabolism is the entire system that:</p>
+    <ul class="list-disc pl-6 mt-2 space-y-1">
       <li>Regulates how your body uses energy</li>
       <li>Influences fat storage vs. fat burning</li>
       <li>Controls hunger, cravings, and hormones</li>
       <li>Impacts sleep, stress, and recovery</li>
       <li>Determines how your body responds to food, exercise, and lifestyle</li>
     </ul>
-    <p className="mt-4"><strong>When it’s optimized</strong> → your body is energized, efficient, and responsive.</p>
+    <p class="mt-4"><strong>When it’s optimized</strong> → your body is energized, efficient, and responsive.</p>
     <p><strong>When it’s dysfunctional</strong> → your body is tired, inflamed, resistant, and unpredictable.</p>
   </section>
 
-  <section className="mb-10">
-    <h2 className="text-2xl font-semibold mb-3">🚩 Signs Your Metabolism Isn’t Optimized</h2>
+  <section class="mb-10">
+    <h2 class="text-2xl text-pink-700 font-bold mb-3">🚩 Signs Your Metabolism Isn’t Optimized</h2>
     <p>This is where most of our clients from Venice, Bradenton, and Osprey start:</p>
-    <ul className="list-disc pl-6 mt-2 space-y-1">
+    <ul class="list-disc pl-6 mt-2 space-y-1">
       <li>You’re gaining weight — even with less food</li>
       <li>You’ve hit a plateau that won’t budge</li>
       <li>You’re tired no matter how much you sleep</li>
@@ -918,62 +927,64 @@ export const blogs = [
       <li>You’re moody, foggy, or fighting cravings 24/7</li>
       <li>Your digestion, hormones, or cycle feel “off”</li>
     </ul>
-    <p className="mt-4">Sound familiar? That’s not just age. Or stress. That’s your metabolism sending up red flags.</p>
+    <p class="mt-4">Sound familiar? That’s not just age. Or stress. That’s your metabolism sending up red flags.</p>
   </section>
 
-  <section className="mb-10">
-    <h2 className="text-2xl font-semibold mb-3">💡 Why Traditional Dieting Wrecks Your Metabolism</h2>
+  <section class="mb-10">
+    <h2 class="text-2xl text-pink-700 font-bold mb-3">💡 Why Traditional Dieting Wrecks Your Metabolism</h2>
     <p>If you’ve followed low-calorie diets, cleanses, or cardio-heavy programs…</p>
-    <p className="mt-2">Your metabolism may have adapted down. Here’s what happens:</p>
-    <ol className="list-decimal pl-6 mt-2 space-y-1">
+    <p class="mt-2">Your metabolism may have adapted down. Here’s what happens:</p>
+    <ol class="list-decimal pl-6 mt-2 space-y-1">
       <li>You cut calories or overtrain</li>
       <li>Your body slows everything down to survive</li>
       <li>You lose some weight — but hit a wall</li>
       <li>You rebound hard the moment you stop</li>
     </ol>
-    <p className="mt-4">This cycle is metabolically damaging — especially for high-achieving women in Sarasota, where busy lives, stress, and perfectionism collide.</p>
-    <p className="mt-2 font-semibold">But here’s the good news: Your metabolism is trainable. And we know how to fix it.</p>
+    <p class="mt-4">This cycle is metabolically damaging — especially for high-achieving women in Sarasota, where busy lives, stress, and perfectionism collide.</p>
+    <p class="mt-2 font-semibold">But here’s the good news: Your metabolism is trainable. And we know how to fix it.</p>
   </section>
 
-  <section className="mb-10">
-    <h2 className="text-2xl font-semibold mb-3">✅ What Is Metabolic Optimization?</h2>
+  <section class="mb-10">
+    <h2 class="text-2xl text-pink-700 font-bold mb-3">✅ What Is Metabolic Optimization?</h2>
     <p><strong>Metabolic Optimization</strong> is the process of restoring and enhancing your metabolism so it functions at its full potential. It means:</p>
-    <ul className="list-disc pl-6 mt-2 space-y-1">
+    <ul class="list-disc pl-6 mt-2 space-y-1">
       <li>Your body burns more calories at rest</li>
       <li>Your hunger, hormones, and energy are balanced</li>
       <li>You build lean muscle and burn fat efficiently</li>
       <li>You recover faster, think clearer, and sleep deeper</li>
     </ul>
-    <p className="mt-4">It’s not a diet. It’s a transformation strategy.</p>
+    <p class="mt-4">It’s not a diet. It’s a transformation strategy.</p>
   </section>
 
-  <section className="mb-10">
-    <h2 className="text-2xl font-semibold mb-3">🧠 How We Optimize Metabolism at Prestige</h2>
+  <section class="mb-10">
+    <h2 class="text-2xl text-pink-700 font-bold mb-3">🧠 How We Optimize Metabolism at Prestige</h2>
 
-    <h3 className="text-xl font-bold mt-4 mb-2">1. We Fuel, Don’t Starve</h3>
+    <h3 class="text-xl text-pink-700 font-bold mt-4 mb-2">1. We Fuel, Don’t Starve</h3>
     <p>We often increase our clients’ calories in the first 2–4 weeks — to reset their systems and eliminate stress hormones. This helps:</p>
-    <ul className="list-disc pl-6 mt-2 space-y-1">
+    <ul class="list-disc pl-6 mt-2 space-y-1">
       <li>Restore thyroid function</li>
       <li>Balance cortisol</li>
       <li>Improve sleep</li>
       <li>Kickstart fat burn long-term</li>
     </ul>
-    <p className="mt-2 italic">💡 One Sarasota client increased her calories by 400/day and lost 4 pounds in the first 3 weeks.</p>
+    <p class="mt-2 italic">💡 One Sarasota client increased her calories by 400/day and lost 4 pounds in the first 3 weeks.</p>
 
-    <h3 className="text-xl font-bold mt-6 mb-2">2. We Train for Muscle — Not Just Sweat</h3>
+    <h3 class="text-xl text-pink-700 font-bold mt-6 mb-2">2. We Train for Muscle — Not Just Sweat</h3>
     <p>More sweat ≠ better results. We design training programs focused on:</p>
-    <ul className="list-disc pl-6 mt-2 space-y-1">
+    <ul class="list-disc pl-6 mt-2 space-y-1">
       <li>Building lean muscle (which burns more calories at rest)</li>
       <li>Enhancing insulin sensitivity</li>
       <li>Improving strength, confidence, and tone</li>
     </ul>
-
-    <h3 className="text-xl font-bold mt-6 mb-2">3. We Add in Lifestyle Optimization</h3
-
+    <div class="mt-4">
+    <p class="text-lg font-semibold"><strong>Don’t starve. Don’t guess. Don’t diet.</strong></p>
+    <p class="text-lg">Start fueling your results — with the right macros, mindset, and method.</p>
+    <p class="text-lg">Apply now at <a href="https://prestigewomenscoaching.com" class="text-blue-500 underline">prestigewomenscoaching.com</a></p>
+    </div>
 
 `
 ,
-    date: "2024-04-07",
+    date: "2024-10-07",
     image: "/blog-image/b8.jpg",
     author: "Prestige Women's Coaching",
     slug: "metabolic-optimization-what-it-is-why-you-should-care-sarasota-bradenton-gulf-coast-womens-guide"
@@ -985,8 +996,8 @@ export const blogs = [
     content: 
     `
    <div>
-  <h1>Macros Made Simple: What Every Woman Needs to Know</h1>
-  <h2>For women in Sarasota, Bradenton, Venice, Siesta Key, Longboat Key & Osprey</h2>
+  <h1 class="text-3xl text-pink-700 font-bold mb-4"> Macros Made Simple: What Every Woman Needs to Know</h1>
+  <h2 class="text-lg text-gray-600 mb-4">For women in Sarasota, Bradenton, Venice, Siesta Key, Longboat Key & Osprey</h2>
 
   <div>
     <p>Let’s get one thing straight:</p>
@@ -998,7 +1009,7 @@ export const blogs = [
     <p>This post is your crash course — no jargon, no calculators, just real talk.</p>
   </div>
 
-  <h2>🧠 First: What Are Macros?</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mb-4">🧠 First: What Are Macros?</h2>
   <div>
     <p>Macros (short for macronutrients) are the 3 categories of nutrients your body needs in large amounts:</p>
     <ol>
@@ -1010,7 +1021,7 @@ export const blogs = [
     <p>And when you eat them in the right balance? That’s when your body starts to change.</p>
   </div>
 
-  <h2>🚨 Why Most Women in Florida Are Under-Eating the Wrong Things</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mb-4">🚨 Why Most Women in Florida Are Under-Eating the Wrong Things</h2>
   <div>
     <p>From Bradenton to Siesta Key, we see the same thing:</p>
     <ul>
@@ -1025,9 +1036,9 @@ export const blogs = [
     <p><strong>Let’s fix that.</strong></p>
   </div>
 
-  <h2>✅ Macro Breakdown: What You Actually Need</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mb-4">✅ Macro Breakdown: What You Actually Need</h2>
   <div>
-    <h3>🔸 Protein: The Shape-Shifter</h3>
+    <h3 class="text-xl text-pink-700 font-bold mb-2">🔸 Protein: The Shape-Shifter</h3>
     <ul>
       <li><strong>Goal:</strong> 0.8g–1g per pound of body weight</li>
       <li><strong>Example:</strong> If you weigh 150 lbs → aim for 120–150g protein/day</li>
@@ -1049,7 +1060,7 @@ export const blogs = [
   </div>
 
   <div>
-    <h3>🔸 Carbs: The Energy Source (Not the Enemy)</h3>
+    <h3 class="text-xl text-pink-700 font-bold mb-2">🔸 Carbs: The Energy Source (Not the Enemy)</h3>
     <p>You’ve been told carbs are bad. But if you’re training, building muscle, or even walking the Ringling Bridge — you need them.</p>
     <p><strong>Why it matters:</strong></p>
     <ul>
@@ -1069,7 +1080,7 @@ export const blogs = [
   </div>
 
   <div>
-    <h3>🔸 Fats: The Hormone Helper</h3>
+    <h3 class="text-xl text-pink-700 font-bold mb-2">🔸 Fats: The Hormone Helper</h3>
     <p>Fats are not to be feared. But they’re more calorie-dense, so be mindful.</p>
     <p><strong>Why it matters:</strong></p>
     <ul>
@@ -1087,7 +1098,7 @@ export const blogs = [
     <p><strong>Avoid:</strong> Overdoing processed oils or trying to go too high-fat + high-carb together.</p>
   </div>
 
-  <h2>📊 Real Talk: Tracking vs. “Eyeballing”</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mb-4">📊 Real Talk: Tracking vs. “Eyeballing”</h2>
   <div>
     <p>Do you need to track macros forever? No.</p>
     <p>Do you need to understand what you’re eating and how it affects you? Absolutely.</p>
@@ -1105,7 +1116,7 @@ export const blogs = [
     </ul>
   </div>
 
-  <h2>📱 Tools We Love (And Teach Our Clients)</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mb-4">📱 Tools We Love (And Teach Our Clients)</h2>
   <div>
     <ul>
       <li>MyFitnessPal (macro tracking)</li>
@@ -1117,7 +1128,7 @@ export const blogs = [
     <p>And once you know what works, you don’t just follow a plan…<br><strong>You become the woman who knows what her body needs.</strong></p>
   </div>
 
-  <h2>🔥 Real Client Example: Sarah from Osprey</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mb-4">🔥 Real Client Example: Sarah from Osprey</h2>
   <div>
     <p>Sarah, a busy executive, was eating “clean” but not enough. She was scared of carbs, living on salads, and constantly fatigued.</p>
     <p>We:</p>
@@ -1130,7 +1141,7 @@ export const blogs = [
     <p><strong>In 8 weeks?</strong><br>She lost inches, felt energized, and stopped bingeing — all while eating more.</p>
   </div>
 
-  <h2>💬 Want This Done For You?</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mb-4">💬 Want This Done For You?</h2>
   <div>
     <p>Macros are powerful. But trying to figure it out alone? That’s overwhelming.</p>
     <p>At Prestige Women’s Coaching, we give you:</p>
@@ -1144,15 +1155,16 @@ export const blogs = [
     <p>Whether you’re in Sarasota, Venice, or Longboat Key — this system works for your life, not against it.</p>
   </div>
 
-  <h2>🚀 Ready to Fuel Your Transformation?</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mb-4" >🚀 Ready to Fuel Your Transformation?</h2>
   <div>
-    <p><strong>Don’t starve. Don’t guess. Don’t diet.</strong></p>
-    <p>Start fueling your results — with the right macros, mindset, and method.</p>
-    <p
+    <p class="text-lg font-semibold"><strong>Don’t starve. Don’t guess. Don’t diet.</strong></p>
+    <p class="text-lg">Start fueling your results — with the right macros, mindset, and method.</p>
+    <p class="text-lg">Apply now at <a href="https://prestigewomenscoaching.com" class="text-blue-500 underline">prestigewomenscoaching.com</a></p>
+  </div>
 
 `
 ,
-    date: "2024-04-07",
+    date: "2024-05-13",
     image: "/blog-image/b9.jpg",
     author: "Prestige Women's Coaching",
     slug: "macros-made-simple-what-every-woman-needs-to-know-sarasota-bradenton-gulf-coast-womens-guide"
@@ -1164,7 +1176,7 @@ export const blogs = [
     content: 
     `
    <div class="nutrition-section px-4 py-8 max-w-4xl mx-auto">
-  <h1 class="text-3xl font-bold mb-4">Nutrition for Energy, Focus, and a Lean Body — Not Just Fat Loss</h1>
+  <h1 class="text-3xl text-pink-700 font-bold mb-4">Nutrition for Energy, Focus, and a Lean Body — Not Just Fat Loss</h1>
 
   <p class="text-lg mb-4">For high-performing women in Sarasota, Bradenton, Venice, Siesta Key, Longboat Key & Osprey, FL</p>
 
@@ -1184,7 +1196,7 @@ export const blogs = [
 
   <p class="mb-4">At <strong>Prestige Women’s Coaching</strong>, we help women fuel their bodies for performance, presence, and power — not just fat loss.</p>
 
-  <h2 class="text-2xl font-bold mt-8 mb-4">🚨 The Problem With Fat-Loss-Only Nutrition</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mt-8 mb-4">🚨 The Problem With Fat-Loss-Only Nutrition</h2>
   <p class="mb-4">If your ONLY goal is to lose weight, you’ll constantly be:</p>
   <ul class="list-disc list-inside mb-4">
     <li>Chasing perfection</li>
@@ -1195,7 +1207,7 @@ export const blogs = [
   <p class="mb-4"><strong>Fat loss is a phase — not a lifestyle.</strong> But energy, focus, strength, and confidence? Those are long-term metrics that drive lasting transformation.</p>
   <p class="mb-4">When you shift your goal from “eating less” to “fueling better” — everything changes.</p>
 
-  <h2 class="text-2xl font-bold mt-8 mb-4">🔋 Eat to Build, Not Just Burn</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mt-8 mb-4">🔋 Eat to Build, Not Just Burn</h2>
   <p class="mb-4">The women we coach in Bradenton, Venice, and Longboat Key aren’t eating for tiny bodies — they’re eating for powerful lives.</p>
   <p class="mb-4">And the key to that? <strong>Eating like your body is an asset — not a project.</strong></p>
   <p class="mb-4">This means:</p>
@@ -1207,9 +1219,9 @@ export const blogs = [
   </ul>
   <p class="mb-4">It’s not restrictive — it’s empowering.</p>
 
-  <h2 class="text-2xl font-bold mt-8 mb-4">✅ Our Energy-Focused Nutrition Formula</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mt-8 mb-4">✅ Our Energy-Focused Nutrition Formula</h2>
 
-  <h3 class="text-xl font-semibold mb-2">1. Stabilize Blood Sugar (Goodbye Energy Crashes)</h3>
+  <h3 class="text-xl text-pink-700 font-semibold mb-2">1. Stabilize Blood Sugar (Goodbye Energy Crashes)</h3>
   <p class="mb-4">The #1 reason women feel like they “can’t focus”? <strong>Unstable blood sugar = inconsistent energy.</strong></p>
   <p class="mb-4">You spike, then crash. Coffee, then cravings. Snacks, then fog.</p>
   <p class="mb-2">Instead:</p>
@@ -1227,7 +1239,7 @@ export const blogs = [
   </ul>
   <p class="mb-4">Simple meals → stable blood sugar → all-day energy.</p>
 
-  <h3 class="text-xl font-semibold mb-2">2. Prioritize Protein Every Meal</h3>
+  <h3 class="text-xl text-pink-700 font-semibold mb-2">2. Prioritize Protein Every Meal</h3>
   <p class="mb-4">Protein doesn’t just help with muscle. It helps with:</p>
   <ul class="list-disc list-inside mb-4">
     <li>Satiety</li>
@@ -1238,7 +1250,7 @@ export const blogs = [
   </ul>
   <p class="mb-4">We recommend <strong>0.8g–1g protein per pound of bodyweight</strong> for every client — from Siesta Key to Osprey.</p>
 
-  <h3 class="text-xl font-semibold mb-2">3. Balance Carbs for Brain & Body</h3>
+  <h3 class="text-xl text-pink-700 font-semibold mb-2">3. Balance Carbs for Brain & Body</h3>
   <p class="mb-4">Carbs are not the enemy. Your brain actually runs on glucose.</p>
   <p class="mb-2">Tips:</p>
   <ul class="list-disc list-inside mb-4">
@@ -1248,7 +1260,7 @@ export const blogs = [
   </ul>
   <p class="mb-4">Want to focus better at work? Eat clean carbs at lunch — don’t skip and then crash mid-meeting.</p>
 
-  <h3 class="text-xl font-semibold mb-2">4. Use Fats to Support Hormones & Mood</h3>
+  <h3 class="text-xl text-pink-700 font-semibold mb-2">4. Use Fats to Support Hormones & Mood</h3>
   <p class="mb-4">Fats support:</p>
   <ul class="list-disc list-inside mb-4">
     <li>Estrogen & progesterone balance</li>
@@ -1265,7 +1277,7 @@ export const blogs = [
   </ul>
   <p class="mb-4">Avoid processed seed oils and ultra-processed junk — they inflame your system and zap energy.</p>
 
-  <h3 class="text-xl font-semibold mb-2">5. Hydrate Like It’s Your Job</h3>
+  <h3 class="text-xl text-pink-700 font-semibold mb-2">5. Hydrate Like It’s Your Job</h3>
   <p class="mb-4">Dehydration mimics:</p>
   <ul class="list-disc list-inside mb-4">
     <li>Fatigue</li>
@@ -1281,7 +1293,7 @@ export const blogs = [
   <p class="mb-4 font-semibold">💡 Pro tip:</p>
   <p class="mb-4">Add sea salt + lemon to your first glass in the morning to support minerals + hydration.</p>
 
-  <h2 class="text-2xl font-bold mt-8 mb-4">🔄 Eat to Sustain, Not Start Over</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mt-8 mb-4">🔄 Eat to Sustain, Not Start Over</h2>
   <p class="mb-4">We teach our clients to stop asking: <strong>“Is this food good or bad?”</strong> And start asking: <strong>“How will this food support my energy, performance, and confidence today?”</strong></p>
   <p class="mb-4">When you eat with intention — everything else falls into place:</p>
   <ul class="list-disc list-inside mb-4">
@@ -1291,7 +1303,7 @@ export const blogs = [
     <li>You feel in control again</li>
   </ul>
 
-  <h2 class="text-2xl font-bold mt-8 mb-4">📊 Real Client Case Study: Jenna from Venice, FL</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mt-8 mb-4">📊 Real Client Case Study: Jenna from Venice, FL</h2>
   <p class="mb-4">Jenna was always tired — even with a “healthy” diet. Low carb. Low fat. High cardio. No energy.</p>
   <p class="mb-4">We adjusted:</p>
   <ul class="list-disc list-inside mb-4">
@@ -1303,7 +1315,7 @@ export const blogs = [
   <blockquote class="italic border-l-4 pl-4 mb-4">“I have more energy now than I’ve had in 5 years. And I’m finally leaning out — without even trying.”</blockquote>
   <p class="mb-4">This is what eating for your life looks like.</p>
 
-  <h2 class="text-2xl font-bold mt-8 mb-4">🌴 Built for Gulf Coast Lifestyles</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mt-8 mb-4">🌴 Built for Gulf Coast Lifestyles</h2>
   <p class="mb-4">Whether you’re commuting to work in Sarasota, managing a household in Bradenton, or enjoying life on the water in Siesta Key — your nutrition should fit your lifestyle.</p>
   <p class="mb-2">That’s why we personalize every nutrition plan at Prestige Women’s Coaching to include:</p>
   <ul class="list-disc list-inside mb-4">
@@ -1314,17 +1326,17 @@ export const blogs = [
   </ul>
   <p class="mb-4">You won’t need to say no to brunch, beach days, or evenings out ever again.</p>
 
-  <h2 class="text-2xl font-bold mt-8 mb-4">💬 Ready to Fuel Your Life — Not Just Diet Through It?</h2>
+  <h2 class="text-2xl text-pink-700 font-bold mt-8 mb-4">💬 Ready to Fuel Your Life — Not Just Diet Through It?</h2>
   <p class="mb-4">If you’re done eating for the scale… And you’re ready to eat for strength, energy, focus, and confidence — <strong>We’ve got you.</strong></p>
   <p class="mb-4">📲 Apply now at <a href="https://prestigewomenscoaching.com" class="text-blue-500 underline">prestigewomenscoaching.com</a></p>
 
-  <p class="mt-8 font-semibold">Train Where You Want. Transform How You Deserve.</p>
+  <p class="mt-8 text-pink-700 font-semibold">Train Where You Want. Transform How You Deserve.</p>
   <p class="mb-4">— Serving Sarasota, Bradenton, Venice, Siesta Key, Longboat Key & Osprey, Florida</p>
 </div>
 
 `
 ,
-    date: "2024-04-07",
+    date: "2025-03-23",
     image: "/blog-image/b10.jpg",
     author: "Prestige Women's Coaching",
     slug: "nutrition-for-energy-focus-and-a-lean-body-not-just-fat-loss-sarasota-bradenton-gulf-coast-womens-guide"
@@ -1520,7 +1532,7 @@ export const blogs = [
 
 `
 ,
-    date: "2024-04-07",
+    date: "2025-04-11",
     image: "/blog-image/b11.jpg",
     author: "Prestige Women's Coaching",
     slug: "burned-out-stuck-how-to-reset-your-body-without-starting-over-sarasota-bradenton-gulf-coast-womens-guide"
@@ -1531,19 +1543,18 @@ export const blogs = [
     excerpt: "How to Build a Routine That Sticks — Even With a Busy Schedule (Sarasota, Bradenton & Gulf Coast Women’s Guide)",
     content: 
     `
-<div className="max-w-4xl mx-auto px-4 py-12 text-gray-800 space-y-12">
- 
-  <div className="text-center">
-    <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
-      How to Build a Routine That Sticks — Even With a Busy Schedule
+<div class="max-w-4xl text mx-auto px-4 py-12 text-gray-800 space-y-12">
+  <div class="text-center">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 text-pink-700">
+      How  to Build a Routine That Sticks — Even With a Busy Schedule
     </h1>
-    <p className="text-lg font-medium text-pink-600">
+    <p class="text-lg font-medium text-pink-600">
       For high-performing women in Sarasota, Bradenton, Venice, Siesta Key, Longboat Key & Osprey, FL
     </p>
   </div>
 
-  <div className="space-y-4">
-    <h2 className="text-2xl font-semibold text-gray-900">📝 Introduction</h2>
+  <div class="space-y-4">
+    <h2 class="text-2xl font-semibold text-gray-900 text-pink-700" >📝 Introduction</h2>
     <p>You don’t lack discipline.</p>
     <p>You don’t lack motivation.</p>
     <p>And you definitely don’t lack drive.</p>
@@ -1559,10 +1570,10 @@ export const blogs = [
     </p>
   </div>
 
-  <div className="bg-red-100 border-l-4 border-red-500 p-6 rounded-md space-y-4">
-    <h2 className="text-2xl font-bold text-red-600">⚠ THE LIE: “You Just Need to Be More Consistent”</h2>
+  <div class="bg-red-100 border-l-4 border-red-500 p-6 rounded-md space-y-4">
+    <h2 class="text-2xl font-bold text-red-600">⚠ THE LIE: “You Just Need to Be More Consistent”</h2>
     <p>The fitness industry loves to say:</p>
-    <ul className="list-disc list-inside ml-4">
+    <ul class="list-disc list-inside ml-4">
       <li>“You just have to want it more.”</li>
       <li>“Wake up earlier.”</li>
       <li>“Make time. No excuses.”</li>
@@ -1573,14 +1584,14 @@ export const blogs = [
   </div>
 
 
-  <div className="space-y-10">
-    <h2 className="text-3xl font-bold text-gray-900">🚀 5 Steps to Build a Routine That Works</h2>
+  <div class="space-y-10">
+    <h2 class="text-3xl font-bold text-gray-900">🚀 5 Steps to Build a Routine That Works</h2>
 
     <div>
-      <h3 className="text-2xl font-bold text-pink-600 mb-2">✅ Step 1: Create a Realistic Weekly Framework</h3>
+      <h3 class="text-2xl font-bold text-pink-600 mb-2">✅ Step 1: Create a Realistic Weekly Framework</h3>
       <p>We help our clients start by mapping out their actual life.</p>
-      <p className="font-medium">🗓 Questions we ask Sarasota & Bradenton clients:</p>
-      <ul className="list-disc list-inside ml-4">
+      <p class="font-medium">🗓 Questions we ask Sarasota & Bradenton clients:</p>
+      <ul class="list-disc list-inside ml-4">
         <li>When are your longest work days?</li>
         <li>When do you have the most energy?</li>
         <li>What days are realistically off-limits?</li>
@@ -1588,7 +1599,7 @@ export const blogs = [
         <li>Do you prefer morning, midday, or evening sessions?</li>
       </ul>
       <p>Then we build a flexible training structure, like:</p>
-      <ul className="list-disc list-inside ml-4">
+      <ul class="list-disc list-inside ml-4">
         <li>3 full-body workouts/week (35–45 minutes each)</li>
         <li>10k steps/day or movement snacks</li>
         <li>1 high-focus recovery day</li>
@@ -1598,9 +1609,9 @@ export const blogs = [
     </div>
 
     <div>
-      <h3 className="text-2xl font-bold text-pink-600 mb-2">✅ Step 2: Anchor Your Day With “Power Habits”</h3>
+      <h3 class="text-2xl font-bold text-pink-600 mb-2">✅ Step 2: Anchor Your Day With “Power Habits”</h3>
       <p>Pick 3–5 anchors that work even on busy days:</p>
-      <ul className="list-disc list-inside ml-4">
+      <ul class="list-disc list-inside ml-4">
         <li>Hydrate before coffee</li>
         <li>Protein + fiber at breakfast</li>
         <li>2-minute midday reset</li>
@@ -1610,8 +1621,8 @@ export const blogs = [
     </div>
 
     <div>
-      <h3 className="text-2xl font-bold text-pink-600 mb-2">✅ Step 3: Make Your Environment Work For You</h3>
-      <ul className="list-disc list-inside ml-4">
+      <h3 class="text-2xl font-bold text-pink-600 mb-2">✅ Step 3: Make Your Environment Work For You</h3>
+      <ul class="list-disc list-inside ml-4">
         <li>Pre-log meals the night before</li>
         <li>Keep workout gear visible</li>
         <li>Use visual cues</li>
@@ -1621,8 +1632,8 @@ export const blogs = [
     </div>
 
     <div>
-      <h3 className="text-2xl font-bold text-pink-600 mb-2">✅ Step 4: Automate the Easy Wins</h3>
-      <ul className="list-disc list-inside ml-4">
+      <h3 class="text-2xl font-bold text-pink-600 mb-2">✅ Step 4: Automate the Easy Wins</h3>
+      <ul class="list-disc list-inside ml-4">
         <li>Same 3–5 breakfasts rotated weekly</li>
         <li>Protein prepped in bulk</li>
         <li>Grocery delivery or pickup</li>
@@ -1632,8 +1643,8 @@ export const blogs = [
     </div>
 
     <div>
-      <h3 className="text-2xl font-bold text-pink-600 mb-2">✅ Step 5: Track What Actually Matters</h3>
-      <ul className="list-disc list-inside ml-4">
+      <h3 class="text-2xl font-bold text-pink-600 mb-2">✅ Step 5: Track What Actually Matters</h3>
+      <ul class="list-disc list-inside ml-4">
         <li>Strength and performance</li>
         <li>Inches lost</li>
         <li>Energy levels</li>
@@ -1643,17 +1654,17 @@ export const blogs = [
     </div>
   </div>
 
-  <div className="bg-green-100 border-l-4 border-green-500 p-6 rounded-md space-y-2">
-    <h3 className="text-2xl font-semibold text-green-700">🔁 Progress Over Perfection = Permanent Results</h3>
+  <div class="bg-green-100 border-l-4 border-green-500 p-6 rounded-md space-y-2">
+    <h3 class="text-2xl font-semibold text-green-700">🔁 Progress Over Perfection = Permanent Results</h3>
     <p>“Consistency doesn’t mean doing it all. It means doing something — on repeat.”</p>
     <p>Stick to the structure — even at 80% — and you’ll win.</p>
   </div>
 
-  <div className="bg-blue-50 border-l-4 border-blue-400 p-6 rounded-md">
-    <h3 className="text-2xl font-semibold text-blue-700">📊 Real Client Story: Hannah from Sarasota</h3>
+  <div class="bg-blue-50 border-l-4 border-blue-400 p-6 rounded-md">
+    <h3 class="text-2xl font-semibold text-blue-700">📊 Real Client Story: Hannah from Sarasota</h3>
     <p>Hannah was a full-time traveler and creative director with an unpredictable schedule.</p>
     <p>We helped her:</p>
-    <ul className="list-disc list-inside ml-4">
+    <ul class="list-disc list-inside ml-4">
       <li>Build a 3-day strength split</li>
       <li>Create go-to meals</li>
       <li>Use walking/stretching on travel days</li>
@@ -1661,23 +1672,23 @@ export const blogs = [
     </ul>
     <p><em>“I’ve been consistent for 4 months straight — even while flying every week. That’s a first for me.”</em></p>
   </div>
-  <div className="space-y-6 text-center">
-    <h3 className="text-2xl font-semibold text-pink-600">🌴 Built for the Gulf Coast Lifestyle</h3>
+  <div class="space-y-6 text-center">
+    <h3 class="text-2xl font-semibold text-pink-600">🌴 Built for the Gulf Coast Lifestyle</h3>
     <p>If you’re training in Venice, parenting in Bradenton, or running your business from Sarasota — your schedule is already full.</p>
     <p>You need a plan that:</p>
-    <ul className="list-disc list-inside ml-4 text-left inline-block">
+    <ul class="list-disc list-inside ml-4 text-left inline-block">
       <li>Doesn’t punish you for being busy</li>
       <li>Adjusts to your life — not the other way around</li>
       <li>Makes consistency feel effortless (even fun)</li>
     </ul>
-    <p className="text-lg font-semibold">💬 Ready to Finally Build a Routine That Sticks?</p>
+    <p class="text-lg font-semibold">💬 Ready to Finally Build a Routine That Sticks?</p>
     <a
       href="https://prestigewomenscoaching.com"
-      className="inline-block bg-pink-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-pink-700 transition"
+      class="inline-block bg-pink-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-pink-700 transition"
     >
       📲 Apply Now
     </a>
-    <p className="text-sm text-gray-500 mt-2">
+    <p class="text-sm text-gray-500 mt-2 font-semibold text-pink-700 ">
       Train Where You Want. Transform How You Deserve. <br />
       Serving Sarasota, Bradenton, Venice, Siesta Key, Longboat Key & Osprey, FL.
     </p>
@@ -1687,7 +1698,7 @@ export const blogs = [
 
 `
 ,
-    date: "2024-04-07",
+    date: "2023-07-07",
       image: "/blog-image/b12.jpg",
     author: "Prestige Women's Coaching",
     slug: "how-to-build-a-routine-that-sticks-even-with-a-busy-schedule-sarasota-bradenton-gulf-coast-womens-guide"
@@ -1700,7 +1711,7 @@ export const blogs = [
     `
   <article>
   <header>
-    <h1>Why Self-Discipline Isn’t the Problem — You Just Need Better Structure</h1>
+    <h1 class="text-3xl font-bold mb-4 text-pink-700    ">Why Self-Discipline Isn’t the Problem — You Just Need Better Structure</h1>
     <p><strong>For driven women in Sarasota, Bradenton, Venice, Siesta Key, Longboat Key & Osprey, FL</strong></p>
   </header>
 
@@ -1728,7 +1739,7 @@ export const blogs = [
   </section>
 
   <section>
-    <h2>⚠ The Discipline Myth</h2>
+    <h2 class="text-pink-700 font-semibold text-2xl mb-3">⚠ The Discipline Myth</h2>
     <p>You’ve been conditioned to think:<br>
       • “If I were more committed, I’d stick with it.”<br>
       • “If I cared enough, I’d get up early and train.”<br>
@@ -1743,7 +1754,7 @@ export const blogs = [
   </section>
 
   <section>
-    <h2>🚨 Why “Willpower” Fails Smart Women</h2>
+    <h2 class="text-pink-700 font-semibold text-2xl mb-3">🚨 Why “Willpower” Fails Smart Women</h2>
     <p>Here’s what we see from clients in Venice, Bradenton, and Longboat Key:<br>
       They try to:<br>
       • Force themselves into morning workouts they hate<br>
@@ -1756,7 +1767,7 @@ export const blogs = [
   </section>
 
   <section>
-    <h2>✅ What Structure Actually Looks Like</h2>
+    <h2 class="text-pink-700 font-semibold text-2xl mb-3">✅ What Structure Actually Looks Like</h2>
     <p>Structure is not restriction. Structure is support.<br>
     It's the scaffolding that keeps your goals standing — even when life gets chaotic.</p>
 
@@ -1782,7 +1793,7 @@ export const blogs = [
   </section>
 
   <section>
-    <h2>🧠 The Real Secret: Reduce the Need for Discipline</h2>
+    <h2 class="text-pink-700 font-semibold text-2xl mb-3">🧠 The Real Secret: Reduce the Need for Discipline</h2>
     <p>Think of it like this:<br>
     A woman who relies on motivation must constantly choose between her goals and her stress.<br>
     A woman with structure? She doesn’t have to “decide” — she just does what’s next on the plan.</p>
@@ -1799,7 +1810,7 @@ export const blogs = [
   </section>
 
   <section>
-    <h2>📊 Real Client Story: Sarah from Bradenton, FL</h2>
+    <h2 class="text-pink-700 font-semibold text-2xl mb-3">📊 Real Client Story: Sarah from Bradenton, FL</h2>
     <p>Sarah, a busy executive and mom of two, told us:<br>
     “I’m great in every area of life… except staying consistent with fitness.”</p>
 
@@ -1819,7 +1830,7 @@ export const blogs = [
   </section>
 
   <section>
-    <h2>🌴 Built for the Gulf Coast Lifestyle</h2>
+    <h2 class="text-pink-700 font-semibold text-2xl mb-3">🌴 Built for the Gulf Coast Lifestyle</h2>
     <p>If you live in Sarasota, Bradenton, Venice, or Osprey, your days are full. Your schedule is real.</p>
 
     <p>We design coaching systems that:</p>
@@ -1835,7 +1846,7 @@ export const blogs = [
   </section>
 
   <section>
-    <h2>🔁 Discipline Is a Muscle — But Structure Is the Gym</h2>
+    <h2 class="text-pink-700 font-semibold text-2xl mb-3">🔁 Discipline Is a Muscle — But Structure Is the Gym</h2>
     <p>If you feel like you’ve been “starting over” for months (or years)…<br>
     If you’re exhausted from trying harder and getting nowhere…</p>
 
@@ -1846,7 +1857,7 @@ export const blogs = [
   </section>
 
   <section>
-    <h2>💬 Ready to Stop Relying on Motivation?</h2>
+    <h2 class="text-pink-700 font-semibold text-2xl mb-3">💬 Ready to Stop Relying on Motivation?</h2>
     <p>If you’re done with the shame spiral, the all-or-nothing patterns, and the “start Monday” mindset — this is your solution.</p>
 
     <p><strong>📲 <a href="https://prestigewomenscoaching.com">Apply now at prestigewomenscoaching.com</a></strong></p>
@@ -1859,7 +1870,7 @@ export const blogs = [
 
 `
 ,
-    date: "2024-04-07",
+    date: "2024-11-26",
     image: "/blog-image/b13.jpg",
     author: "Prestige Women's Coaching",
     slug: "why-self-discipline-isn-t-the-problem-you-just-need-better-structure-sarasota-bradenton-gulf-coast-womens-guide"
@@ -1871,7 +1882,7 @@ export const blogs = [
     content: 
     `
    <div class="max-w-3xl mx-auto px-4 py-8 text-gray-800">
-  <h1 class="text-3xl font-bold mb-4">From Hustle to Harmony: Redefining “Success” in Your Health Journey</h1>
+  <h1 class="text-3xl font-bold mb-4 text-pink-700   ">From Hustle to Harmony: Redefining “Success” in Your Health Journey</h1>
   <p class="mb-4">For ambitious women in Sarasota, Bradenton, Venice, Siesta Key, Longboat Key & Osprey, FL</p>
 
   <p class="mb-4">If you’re like most high-achieving women we coach at Prestige Women’s Coaching, success has always come from one thing:</p>
@@ -1883,7 +1894,7 @@ export const blogs = [
 
   <p class="mb-6">Let’s talk about what that means — and how women across Sarasota, Bradenton, and the Gulf Coast are finally learning how to win without wearing themselves down.</p>
 
-  <h2 class="text-2xl font-semibold mb-3">⚠ What Hustle Culture Has Taught You About Fitness</h2>
+  <h2 class="text-2xl text-pink-700 font-semibold mb-3">⚠ What Hustle Culture Has Taught You About Fitness</h2>
   <p class="mb-2">You've been told:</p>
   <ul class="list-disc list-inside mb-4">
     <li>“Just eat less and move more.”</li>
@@ -1895,7 +1906,7 @@ export const blogs = [
   <p class="mb-2">Burnout.<br>Hormonal chaos.<br>Low energy.<br>All-or-nothing cycles.<br>And women who feel disconnected from their bodies and their joy.</p>
   <p class="mb-4 font-semibold">That’s not success. That’s survival.</p>
 
-  <h2 class="text-2xl font-semibold mb-3">🔄 Hustle Got You Here. Harmony Takes You Further.</h2>
+  <h2 class="text-2xl text-pink-700 font-semibold mb-3">🔄 Hustle Got You Here. Harmony Takes You Further.</h2>
   <p class="mb-4">At Prestige, we help women — especially high-performers in Venice, Osprey, and Longboat Key — rewrite what success looks like.</p>
   <p class="mb-4">Because here’s the truth:</p>
   <ul class="list-disc list-inside mb-4">
@@ -1905,7 +1916,7 @@ export const blogs = [
   </ul>
   <p class="mb-6">When you start choosing alignment over achievement, everything changes.</p>
 
-  <h2 class="text-2xl font-semibold mb-3">✅ How We Redefine “Success” for Our Clients</h2>
+  <h2 class="text-2xl text-pink-700 font-semibold mb-3">✅ How We Redefine “Success” for Our Clients</h2>
   <div class="mb-4">
     <p class="font-semibold">Old version of success:</p>
     <ul class="list-disc list-inside mb-2">
@@ -1926,7 +1937,7 @@ export const blogs = [
   <p class="mb-4">In Sarasota? That might mean lifting 3x/week and enjoying dinner at Shore guilt-free.<br>In Bradenton? That might mean trading cardio for morning walks and better sleep.</p>
   <p class="mb-6 font-semibold">This is the new success.</p>
 
-  <h2 class="text-2xl font-semibold mb-3">💡 What Harmony Actually Looks Like (In Real Life)</h2>
+  <h2 class="text-2xl text-pink-700 font-semibold mb-3">💡 What Harmony Actually Looks Like (In Real Life)</h2>
   <p class="mb-4">Here’s how we help women build harmony in their transformation journey:</p>
   <ul class="list-disc list-inside mb-6 space-y-2">
     <li>
@@ -1951,7 +1962,7 @@ export const blogs = [
 
   <p class="mb-6 font-semibold">Harmony means your health plan adds to your life — not takes from it.</p>
 
-  <h2 class="text-2xl font-semibold mb-3">📊 Real Client Story: Beth from Siesta Key</h2>
+  <h2 class="text-2xl text-pink-700 font-semibold mb-3">📊 Real Client Story: Beth from Siesta Key</h2>
   <p class="mb-4">Beth was a full-time entrepreneur juggling clients, travel, and family. She thought success meant pushing harder — until she hit a wall.</p>
   <p class="mb-4">When she came to us, we pulled her back:</p>
   <ul class="list-disc list-inside mb-4">
@@ -1962,7 +1973,7 @@ export const blogs = [
   <p class="mb-6 italic">“I feel stronger, more feminine, more in control — and I’m finally seeing results without obsession.”</p>
   <p class="mb-6 font-semibold">Her output didn’t go down. Her alignment went up.<br>That’s harmony.</p>
 
-  <h2 class="text-2xl font-semibold mb-3">🌴 This Is What Gulf Coast Women Need</h2>
+  <h2 class="text-2xl text-pink-700 font-semibold mb-3">🌴 This Is What Gulf Coast Women Need</h2>
   <p class="mb-4">You’re living a full life. You want to feel lean, confident, and energized — but you’re not here to live in the gym or survive on chicken and broccoli.</p>
   <p class="mb-4">That’s why we build plans for our clients in Sarasota, Venice, and Osprey that:</p>
   <ul class="list-disc list-inside mb-4">
@@ -1972,11 +1983,11 @@ export const blogs = [
   </ul>
   <p class="mb-6">Health isn’t about more control. It’s about more connection to your body and your goals.</p>
 
-  <h2 class="text-2xl font-semibold mb-3">💬 What Would Harmony Look Like for You?</h2>
+  <h2 class="text-2xl text-pink-700 font-semibold mb-3">💬 What Would Harmony Look Like for You?</h2>
   <p class="mb-4">What if your body felt light and strong — without overthinking every meal?<br>What if your schedule supported your workouts — without draining your joy?<br>What if you were consistent because it felt good, not forced?</p>
   <p class="mb-6">That’s what we do inside The Ultimate Women’s Transformation Experience.</p>
 
-  <h2 class="text-2xl font-semibold mb-3">💥 Ready to Redefine Success?</h2>
+  <h2 class="text-2xl text-pink-700 font-semibold mb-3">💥 Ready to Redefine Success?</h2>
   <p class="mb-4">If you're done burning out and ready to feel strong, confident, and in control — without hustling harder — let’s talk.</p>
   <p class="mb-4 font-semibold">📲 Apply now at <a href="https://prestigewomenscoaching.com" class="text-blue-600 underline">prestigewomenscoaching.com</a></p>
   <p class="mt-6">Train Where You Want. Transform How You Deserve.<br>Serving Sarasota, Bradenton, Venice, Siesta Key, Longboat Key & Osprey, FL.</p>
@@ -1986,7 +1997,7 @@ export const blogs = [
 
 `
 ,
-    date: "2024-04-07",
+    date: "2025-01-14",
     image: "/blog-image/b14.jpg",
     author: "Prestige Women's Coaching",
     slug: "from-hustle-to-harmony-redefining-success-in-your-health-journey-sarasota-bradenton-gulf-coast-womens-guide"
@@ -2127,7 +2138,7 @@ export const blogs = [
 
 `
 ,
-    date: "2024-04-07",
+    date: "2025-04-10",
     image: "/blog-image/b15.jpg",
     author: "Prestige Women's Coaching",
     slug: "the-mindset-shift-that-changes-everything-keeps-you-consistent-sarasota-bradenton-gulf-coast-womens-guide"
