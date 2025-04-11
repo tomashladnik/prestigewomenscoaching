@@ -42,14 +42,11 @@ export default function FeatureModal({ isOpen, onClose, title, content }) {
           <h2 className="text-4xl font-bold mb-8">{content.title}</h2>
 
           <div
-  className="prose prose-lg prose-gray max-w-none"
-  dangerouslySetInnerHTML={{ __html: content.description }}
-></div>
-
-
+            className="prose prose-lg prose-gray max-w-none"
+            dangerouslySetInnerHTML={{ __html: content.description }}
+          />
         </div>
       </div>
     </div>
   )
 }
-

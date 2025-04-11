@@ -1,5 +1,7 @@
-import "./globals.css"
 import Nav from "./components/nav"
+import { rohnrounded } from './fonts'
+import "./globals.css"
+
 export const metadata = {
   title: "Prestige Women's Coaching",
   description: "Transform your body and life with our 6-month coaching program",
@@ -8,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={rohnrounded.variable}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -17,7 +19,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body>
+      <body className="font-rohn">
         <Nav />
         {children}
       </body>

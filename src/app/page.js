@@ -72,14 +72,14 @@ export default function Home() {
 
             <motion.h1
               variants={fadeIn}
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 sm:mb-8 text-shadow px-2"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-rohn font-rohn-black leading-tight mb-6 sm:mb-8 text-shadow px-2"
             >
               Want to Feel Strong, Confident & In Control of Your Body Again?
             </motion.h1>
 
             <motion.p
               variants={fadeIn}
-              className="text-lg sm:text-xl md:text-2xl mb-8 sm:mb-12 text-black max-w-3xl mx-auto px-2"
+              className="text-lg sm:text-xl md:text-2xl mb-8 sm:mb-12 text-black font-rohn font-rohn-regular max-w-3xl mx-auto px-2"
             >
               Whether you want to lose weight, tone up, or simply feel amazing in your skin again – our 6-month coaching
               program is built for women ready to invest in themselves and achieve lasting transformation.
@@ -88,9 +88,9 @@ export default function Home() {
             <motion.div variants={fadeIn} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <button
                 onClick={() => setIsFormOpen(true)}
-                className="inline-block bg-yellow-600 hover:from-pink-500 hover:to-amber-500 text-white font-bold px-6 py-3 sm:px-10 sm:py-4 text-base sm:text-lg rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
+                className="inline-block bg-yellow-600 hover:from-pink-500 hover:to-amber-500 text-white font-rohn font-rohn-heavy px-6 py-3 sm:px-10 sm:py-4 text-base sm:text-lg rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
               >
-                YES! SHOW ME HOW
+                YES! SHOW ME HOW!
               </button>
             </motion.div>
 
@@ -214,7 +214,7 @@ export default function Home() {
           >
             <motion.h2
               variants={fadeIn}
-              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-shadow-lg text-black px-2"
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-rohn font-rohn-heavy mb-6 text-shadow-lg text-black px-2"
             >
               READY TO TRANSFORM
               <br />

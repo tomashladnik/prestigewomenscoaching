@@ -6,7 +6,6 @@ import {
   Dumbbell,
   Footprints,
   Heart,
-  Scale,
   Timer,
   Watch,
 } from "lucide-react";
@@ -36,9 +35,9 @@ export default function AboutUsSection() {
   };
 
   const icons = useMemo(() => {
-    return Array.from({ length: 45 }).map((_, i) => {
+    return Array.from({ length: 65 }).map((_, i) => {
       const Icon =
-        [Dumbbell, Heart, Watch, Footprints, Timer, Activity, Scale][i % 7];
+        [Dumbbell, Heart, Watch, Footprints, Timer, Activity][i % 6];
       const size = Math.floor(Math.random() * 35) + 60;
       const position = getUnoccupiedPosition();
       const rotate = `${Math.floor(Math.random() * 3)}deg`;
@@ -100,22 +99,22 @@ export default function AboutUsSection() {
       <div className="relative flex justify-center md:justify-end items-center min-h-screen px-4 sm:px-6 lg:px-8 py-10">
         <div className="w-full md:w-3/5 lg:w-1/2 bg-white rounded-3xl border-2 border-amber-500 p-6 sm:p-8 md:p-12 shadow-lg z-10">
           <div className="space-y-6">
-            <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-center text-gray-900">
+            <h2 className="text-xl sm:text-4xl font-rohn font-rohn-italic font-bold tracking-wider text-center text-gray-900">
               ABOUT US
             </h2>
 
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-black text-center text-gray-900">
+            <h1 className="text-2xl sm:text-3xl md:text-5xl font-rohn font-rohn-heavy text-center text-gray-900">
               Prestige Women's Coaching
             </h1>
 
-            <p className="text-center text-base sm:text-lg text-gray-700">
+            <p className="text-center text-base  sm:text-[17px] font-rohn font-rohn-light text-black">
               The Ultimate Women's Transformation Experience is more than a
               fitness program — it's a lifestyle shift built for real women who
               want lasting change without sacrificing their time, energy, or
               confidence.
             </p>
 
-            <p className="text-center text-base sm:text-lg text-gray-700">
+            <p className="text-center text-base sm:text-[17px] font-rohn font-rohn-light text-black">
               At Prestige Women's Coaching, we specialize in high-touch,
               personalized coaching for women who are ready to feel strong,
               empowered, and in control again. Whether it's in your home or in
@@ -123,7 +122,7 @@ export default function AboutUsSection() {
               to help you finally get the results you deserve.
             </p>
 
-            <p className="text-center text-base sm:text-lg text-gray-700">
+            <p className="text-center text-base sm:text-[17px] font-rohn font-rohn-light text-black">
               Since launching, we've helped over 200 women transform their
               bodies and mindsets through our proven 6-month experience.
             </p>
@@ -131,14 +130,14 @@ export default function AboutUsSection() {
             {/* Stats Section */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6">
               <div className="text-center">
-                <p className="text-2xl sm:text-3xl font-bold text-amber-500">
+                <p className="text-2xl sm:text-3xl font-rohn font-rohn-heavy text-amber-500">
                   200+
                 </p>
                 <p className="text-xs sm:text-sm">Women Transformed</p>
               </div>
 
               <div className="text-center">
-                <p className="text-2xl sm:text-3xl font-bold text-amber-500">
+                <p className="text-2xl sm:text-3xl font-rohn font-rohn-heavy text-amber-500">
                   6-Month
                 </p>
                 <p className="text-xs sm:text-sm">
@@ -147,14 +146,14 @@ export default function AboutUsSection() {
               </div>
 
               <div className="text-center">
-                <p className="text-2xl sm:text-3xl font-bold text-amber-500">
+                <p className="text-2xl sm:text-3xl font-rohn font-rohn-heavy text-amber-500">
                   90%+
                 </p>
                 <p className="text-xs sm:text-sm">Client Completion Rate</p>
               </div>
 
               <div className="text-center">
-                <p className="text-2xl sm:text-3xl font-bold text-amber-500">
+                <p className="text-2xl sm:text-3xl font-rohn font-rohn-heavy text-amber-500">
                   Thousands
                 </p>
                 <p className="text-xs sm:text-sm">

@@ -52,7 +52,7 @@ export default function BookingCalendar({ isOpen, onClose, formData = {} }) {
                   alt="Logo"
                   className="w-32 sm:w-44 mx-auto mb-4"
                 />
-                <h2 className="text-xl sm:text-2xl font-bold text-black mb-2">
+                <h2 className="text-xl sm:text-2xl font-rohn-bold text-black mb-2">
                   Find a time to meet with a coach from Prestige Women's Coaching
                 </h2>
               </div>

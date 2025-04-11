@@ -53,17 +53,23 @@ export default function LeadForm({ isOpen, onClose, onSubmit }) {
               </button>
 
               {/* Header */}
-              <div className="text-center mb-6 mt-10 sm:mt-0">
+              <div className="mb-2 mt-10 sm:mt-0">
                 <img src="/logo1.png" alt="Logo" className="w-36 sm:w-44 mx-auto" />
-                <h2 className="text-lg sm:text-2xl font-bold  text-black">
-                  Discover the Method Helping Women Finally Love the Way They Look & Feel
+                <h2 className="text-2xl sm:text-3xl font-rohn-bold text-gray-800 mb-6 text-center">
+                  Let's Start Your Transformation Journey
                 </h2>
+                <p className="text-gray-600 mb-1 text-center font-rohn-regular">
+                  Fill out the form below and we'll get back to you within 24 hours to discuss your fitness goals.
+                </p>
               </div>
 
               {/* Form */}
               <form onSubmit={handleSubmit} className="space-y-2">
                 {["firstName", "lastName", "email", "phone"].map((field) => (
                   <div key={field}>
+                    <label htmlFor={field} className="block text-sm font-rohn-medium text-gray-700 mb-1 text-left">
+                      {field.replace(/([A-Z])/g, " $1").replace(/^./, str => str.toUpperCase())}*
+                    </label>
                     <input
                       type={field === "email" ? "email" : field === "phone" ? "tel" : "text"}
                       name={field}
@@ -77,6 +83,9 @@ export default function LeadForm({ isOpen, onClose, onSubmit }) {
                 ))}
 
                 <div>
+                  <label htmlFor="interest" className="block text-sm font-rohn-medium text-gray-700 mb-1 text-left">
+                    What are you most interested in?
+                  </label>
                   <select
                     name="interest"
                     required
@@ -94,9 +103,9 @@ export default function LeadForm({ isOpen, onClose, onSubmit }) {
 
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-pink-400 to-amber-400 hover:from-pink-500 hover:to-amber-500 text-white font-bold py-2 rounded-lg transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-lg"
+                  className="w-full bg-yellow-600 hover:bg-yellow-500 text-white font-rohn-bold py-3 px-4 rounded-lg transition duration-200"
                 >
-                  YES! SHOW ME HOW!
+                  Submit
                 </button>
               </form>
             </div>

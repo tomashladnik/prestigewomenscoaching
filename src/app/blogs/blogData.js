@@ -54,7 +54,7 @@ export const blogs = [
 
         <p>👉 <a href="https://www.prestigewomenscoaching.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800">Apply now at prestigewomenscoaching.com</a> and get the structure, support, and strategy you need to transform.</p>
 
-        <p>💪 Let's make 2024 your year of transformation. Apply now and let's get you the results you deserve.</p>
+        <p>💪 Let's make 2025 your year of transformation. Apply now and let's get you the results you deserve.</p>
       </div>
     `,
     date: "2024-04-07",
@@ -178,11 +178,11 @@ export const blogs = [
 
   <p>👉 <a href="https://www.prestigewomenscoaching.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800">Apply now for The Ultimate Women’s Transformation Experience</a></p>
 
-  <p>💪 Let’s make 2024 your year of transformation. Join us at Prestige Women’s Coaching and get the results you deserve.</p>
+  <p>💪 Let’s make 2025 your year of transformation. Join us at Prestige Women’s Coaching and get the results you deserve.</p>
 </div>
 
     `,
-    date: "2024-04-07",
+    date: "2025-04-07",
     image: "/blog-image/b2.jpg",
     author: "Prestige Women's Coaching",
     slug: "the-smart-woman-s-guide-to-getting-toned"

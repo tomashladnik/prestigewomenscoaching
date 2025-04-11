@@ -167,3 +167,107 @@
   color: black !important;
   font-size: 14px;
 }
+
+@font-face {
+  font-family: 'RohnRounded';
+  src: url('/fonts/RohnRounded-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RohnRounded';
+  src: url('/fonts/RohnRounded-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RohnRounded';
+  src: url('/fonts/RohnRounded-Regular.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RohnRounded';
+  src: url('/fonts/RohnRounded-Medium.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RohnRounded';
+  src: url('/fonts/RohnRounded-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RohnRounded';
+  src: url('/fonts/RohnRounded-Heavy.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RohnRounded';
+  src: url('/fonts/RohnRounded-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Add a fallback class for the font */
+.font-rohn {
+  font-family: 'RohnRounded', sans-serif;
+}
+
+/* Add specific weight classes */
+.font-rohn-thin {
+  font-family: 'RohnRounded', sans-serif;
+  font-weight: 100;
+}
+
+.font-rohn-light {
+  font-family: 'RohnRounded', sans-serif;
+  font-weight: 400;
+}
+
+.font-rohn-regular {
+  font-family: 'RohnRounded', sans-serif;
+  font-weight: 500;
+}
+
+.font-rohn-medium {
+  font-family: 'RohnRounded', sans-serif;
+  font-weight: 600;
+}
+
+.font-rohn-bold {
+  font-family: 'RohnRounded', sans-serif;
+  font-weight: 700;
+}
+
+.font-rohn-heavy {
+  font-family: 'RohnRounded', sans-serif;
+  font-weight: 800;
+}
+
+.font-rohn-black {
+  font-family: 'RohnRounded', sans-serif;
+  font-weight: 900;
+}
+
+.font-rohn-italic {
+  font-family: 'RohnRounded', sans-serif;
+  font-style: italic;
+}
+
+

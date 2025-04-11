@@ -9,6 +9,12 @@ module.exports = {
     ],
     theme: {
       extend: {
+        fontFamily: {
+          sans: ['var(--font-sans)'],
+          serif: ['var(--font-serif)'],
+          mono: ['var(--font-mono)'],
+          rohn: ["RohnRounded", "var(--font-rohnrounded)", "sans-serif"],
+        },
         colors: {
           border: "hsl(var(--border))",
           input: "hsl(var(--input))",
