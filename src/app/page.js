@@ -51,9 +51,9 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative bg-black text-white min-h-[70vh] sm:min-h-screen flex items-center">
         <div className="absolute inset-0 z-0 bg-pink-400"></div>
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-16 sm:py-24 md:py-32 lg:py-40 text-center">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 py-24 sm:py-24 md:py-32 lg:py-40 text-center">
           <motion.div initial="hidden" animate="visible" variants={staggerContainer} className="max-w-4xl mx-auto">
-            <div className="flex justify-center items-center relative z-50 mx-auto w-[250px] sm:w-[350px] md:w-[450px] h-[80px] sm:h-[100px] p-1 rounded-lg mb-4 sm:mb-6">
+            <div className="flex justify-center items-center relative z-50 mx-auto w-[250px] sm:w-[350px] md:w-[450px] h-[80px] sm:h-[100px] p-1 rounded-lg mb-4 sm:mb-6 mt-5">
               <Image
                 src="/logo3.png"
                 alt="Logo"

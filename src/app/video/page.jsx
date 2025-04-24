@@ -11,7 +11,7 @@ export default function VideoPage() {
 
   return (
     <main className="min-h-screen bg-pink-400">
-      <div className="max-w-4xl mx-auto px-4 py-10 sm:py-14 md:py-20">
+      <div className="max-w-4xl mx-auto px-4 py-16 sm:py-14 md:py-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -34,9 +34,16 @@ export default function VideoPage() {
 
           {/* Video Placeholder */}
           <div className="aspect-video bg-gray-100 rounded-xl mb-8 overflow-hidden">
-            <div className="w-full h-full flex items-center justify-center text-gray-500 text-base sm:text-lg">
-              Video VSL
-            </div>
+            <video 
+              className="w-full h-full object-cover"
+              controls
+              autoPlay
+              muted
+              playsInline
+            >
+              <source src="/main.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
 
           {/* CTA Button */}

@@ -1155,8 +1155,6 @@ export default function Home() {
                 imageSrc: "/placeholder.svg?height=600&width=400"
               }}
             />
-          
-          
             <FeatureCard
               title="Crystal's Transformation"
               subtitle="Tech Professional & Mom of Two | Sarasota, FL"
